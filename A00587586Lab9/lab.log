@@ -1,0 +1,854 @@
+2018-05-28 19:49:32.213 [main] INFO  a00123456.Lab7 - Start: 2018-05-29T02:49:31.418604Z
+2018-05-28 19:49:32.216 [main] DEBUG a00123456.db.Database - Loading database properties from db.properties
+2018-05-28 19:49:32.219 [main] DEBUG a00123456.db.Database - com.microsoft.sqlserver.jdbc.SQLServerDriver
+2018-05-28 19:49:32.328 [main] DEBUG a00123456.db.Database - Driver loaded
+2018-05-28 19:49:32.328 [main] DEBUG a00123456.db.Database - DB URL=jdbc:sqlserver://Beangrinder.bcit.ca
+2018-05-28 19:49:32.328 [main] DEBUG a00123456.db.Database - DB USER=javastudent
+2018-05-28 19:49:32.328 [main] DEBUG a00123456.db.Database - DB URL=compjava
+2018-05-28 19:49:33.263 [main] DEBUG a00123456.db.Database - Database connected
+2018-05-28 19:49:33.746 [main] DEBUG a00123456.db.Database - Found the target table named: A00123456_Customers
+2018-05-28 19:49:33.896 [main] INFO  a00123456.CustomerDaoTester - Getting the customer IDs
+2018-05-28 19:49:33.896 [main] DEBUG a00123456.data.customer.CustomerDao - SELECT id FROM A00123456_Customers
+2018-05-28 19:49:33.924 [main] DEBUG a00123456.data.customer.CustomerDao - Loaded 5 customer IDs from the database
+2018-05-28 19:49:33.925 [main] INFO  a00123456.CustomerDaoTester - Customer IDs: [1, 2, 3, 4, 5]
+2018-05-28 19:49:33.925 [main] INFO  a00123456.CustomerDaoTester - 1
+2018-05-28 19:49:33.926 [main] DEBUG a00123456.data.customer.CustomerDao - SELECT * FROM A00123456_Customers WHERE id = 1
+2018-05-28 19:49:33.960 [main] INFO  a00123456.CustomerDaoTester - Customer [id=1, firstName=Fred, lastName=Fish, street=5707 Sidley St, city=Burnaby, postalCode=V5J5E6, phone=6044335004, emailAddress=fredfish@imperial.net, joinedDate=2008-03-22]
+2018-05-28 19:49:33.960 [main] INFO  a00123456.CustomerDaoTester - 2
+2018-05-28 19:49:33.960 [main] DEBUG a00123456.data.customer.CustomerDao - SELECT * FROM A00123456_Customers WHERE id = 2
+2018-05-28 19:49:33.984 [main] INFO  a00123456.CustomerDaoTester - Customer [id=2, firstName=Laurie, lastName=Nash, street=2816 Commercial Dr, city=Vancouver, postalCode=V5N4C6, phone=6048760182, emailAddress=laurieeenash@modern.com, joinedDate=2014-08-28]
+2018-05-28 19:49:33.984 [main] INFO  a00123456.CustomerDaoTester - 3
+2018-05-28 19:49:33.985 [main] DEBUG a00123456.data.customer.CustomerDao - SELECT * FROM A00123456_Customers WHERE id = 3
+2018-05-28 19:49:34.013 [main] INFO  a00123456.CustomerDaoTester - Customer [id=3, firstName=Conrad, lastName=Washington, street=13479 King George Blvd, city=Surrey, postalCode=V3T2T8, phone=6045884988, emailAddress=cwash@daytona.net, joinedDate=2011-07-12]
+2018-05-28 19:49:34.013 [main] INFO  a00123456.CustomerDaoTester - 4
+2018-05-28 19:49:34.013 [main] DEBUG a00123456.data.customer.CustomerDao - SELECT * FROM A00123456_Customers WHERE id = 4
+2018-05-28 19:49:34.037 [main] INFO  a00123456.CustomerDaoTester - Customer [id=4, firstName=Jeanette, lastName=Price, street=21000 Westminster Hwy, city=Richmond, postalCode=V6V2S9, phone=6042762552, emailAddress=priceizrite@pacific.com, joinedDate=2015-10-03]
+2018-05-28 19:49:34.037 [main] INFO  a00123456.CustomerDaoTester - 5
+2018-05-28 19:49:34.038 [main] DEBUG a00123456.data.customer.CustomerDao - SELECT * FROM A00123456_Customers WHERE id = 5
+2018-05-28 19:49:34.057 [main] INFO  a00123456.CustomerDaoTester - Customer [id=5, firstName=Mark, lastName=Chan, street=3766 E 1st Ave, city=Burnaby, postalCode=V5C3V9, phone=6042931022, emailAddress=mchan@hcenter.com, joinedDate=2010-04-01]
+2018-05-28 19:49:34.075 [main] INFO  a00123456.CustomerDaoTester - 5
+2018-05-28 19:49:34.075 [main] INFO  a00123456.Lab7 - End: 2018-05-29T02:49:34.075922Z
+2018-05-28 19:49:34.076 [main] INFO  a00123456.Lab7 - Duration: 2657 ms
+2020-03-15 21:11:01.840 [main] INFO  a00587586.Lab7 - Start: 2020-03-16T04:11:01.473315300Z
+2020-03-15 21:11:01.856 [main] DEBUG a00587586.db.Database - Loading database properties from db.properties
+2020-03-15 21:11:01.857 [main] DEBUG a00587586.db.Database - com.microsoft.sqlserver.jdbc.SQLServerDriver
+2020-03-15 21:11:01.917 [main] DEBUG a00587586.db.Database - Driver loaded
+2020-03-15 21:11:01.917 [main] DEBUG a00587586.db.Database - DB URL=jdbc:sqlserver://Beangrinder.bcit.ca
+2020-03-15 21:11:01.917 [main] DEBUG a00587586.db.Database - DB USER=javastudent
+2020-03-15 21:11:01.917 [main] DEBUG a00587586.db.Database - DB URL=compjava
+2020-03-15 21:11:03.016 [main] DEBUG a00587586.db.Database - Database connected
+2020-03-15 21:11:03.164 [main] DEBUG a00587586.db.Database - Found the target table named: A00123456_Customers
+2020-03-15 21:11:03.227 [main] INFO  a00587586.CustomerDaoTester - Getting the customer IDs
+2020-03-15 21:11:03.227 [main] DEBUG a00587586.data.customer.CustomerDao - SELECT id FROM A00123456_Customers
+2020-03-15 21:11:03.258 [main] DEBUG a00587586.data.customer.CustomerDao - Loaded 5 customer IDs from the database
+2020-03-15 21:11:03.258 [main] INFO  a00587586.CustomerDaoTester - Customer IDs: [1, 2, 3, 4, 5]
+2020-03-15 21:11:03.258 [main] INFO  a00587586.CustomerDaoTester - 1
+2020-03-15 21:11:03.258 [main] DEBUG a00587586.data.customer.CustomerDao - SELECT * FROM A00123456_Customers WHERE id = 1
+2020-03-15 21:11:03.305 [main] INFO  a00587586.CustomerDaoTester - Customer [id=1, firstName=Fred, lastName=Fish, street=5707 Sidley St, city=Burnaby, postalCode=V5J5E6, phone=6044335004, emailAddress=fredfish@imperial.net, joinedDate=2008-03-22]
+2020-03-15 21:11:03.305 [main] INFO  a00587586.CustomerDaoTester - 2
+2020-03-15 21:11:03.305 [main] DEBUG a00587586.data.customer.CustomerDao - SELECT * FROM A00123456_Customers WHERE id = 2
+2020-03-15 21:11:03.352 [main] INFO  a00587586.CustomerDaoTester - Customer [id=2, firstName=Laurie, lastName=Nash, street=2816 Commercial Dr, city=Vancouver, postalCode=V5N4C6, phone=6048760182, emailAddress=laurieeenash@modern.com, joinedDate=2014-08-28]
+2020-03-15 21:11:03.352 [main] INFO  a00587586.CustomerDaoTester - 3
+2020-03-15 21:11:03.352 [main] DEBUG a00587586.data.customer.CustomerDao - SELECT * FROM A00123456_Customers WHERE id = 3
+2020-03-15 21:11:03.383 [main] INFO  a00587586.CustomerDaoTester - Customer [id=3, firstName=Conrad, lastName=Washington, street=13479 King George Blvd, city=Surrey, postalCode=V3T2T8, phone=6045884988, emailAddress=cwash@daytona.net, joinedDate=2011-07-12]
+2020-03-15 21:11:03.383 [main] INFO  a00587586.CustomerDaoTester - 4
+2020-03-15 21:11:03.383 [main] DEBUG a00587586.data.customer.CustomerDao - SELECT * FROM A00123456_Customers WHERE id = 4
+2020-03-15 21:11:03.430 [main] INFO  a00587586.CustomerDaoTester - Customer [id=4, firstName=Jeanette, lastName=Price, street=21000 Westminster Hwy, city=Richmond, postalCode=V6V2S9, phone=6042762552, emailAddress=priceizrite@pacific.com, joinedDate=2015-10-03]
+2020-03-15 21:11:03.430 [main] INFO  a00587586.CustomerDaoTester - 5
+2020-03-15 21:11:03.430 [main] DEBUG a00587586.data.customer.CustomerDao - SELECT * FROM A00123456_Customers WHERE id = 5
+2020-03-15 21:11:03.474 [main] INFO  a00587586.CustomerDaoTester - Customer [id=5, firstName=Mark, lastName=Chan, street=3766 E 1st Ave, city=Burnaby, postalCode=V5C3V9, phone=6042931022, emailAddress=mchan@hcenter.com, joinedDate=2010-04-01]
+2020-03-15 21:11:03.503 [main] INFO  a00587586.CustomerDaoTester - 5
+2020-03-15 21:11:03.503 [main] INFO  a00587586.Lab7 - End: 2020-03-16T04:11:03.503021800Z
+2020-03-15 21:11:03.503 [main] INFO  a00587586.Lab7 - Duration: 2029 ms
+2020-03-15 21:27:24.997 [main] INFO  a00587586.Lab7 - Start: 2020-03-16T04:27:24.602477500Z
+2020-03-15 21:27:25.000 [main] DEBUG a00587586.db.Database - Loading database properties from db.properties
+2020-03-15 21:27:25.002 [main] DEBUG a00587586.db.Database - com.microsoft.sqlserver.jdbc.SQLServerDriver
+2020-03-15 21:27:25.064 [main] DEBUG a00587586.db.Database - Driver loaded
+2020-03-15 21:27:25.065 [main] DEBUG a00587586.db.Database - DB URL=jdbc:sqlserver://Beangrinder.bcit.ca
+2020-03-15 21:27:25.065 [main] DEBUG a00587586.db.Database - DB USER=javastudent
+2020-03-15 21:27:25.065 [main] DEBUG a00587586.db.Database - DB URL=compjava
+2020-03-15 21:27:25.606 [main] DEBUG a00587586.db.Database - Database connected
+2020-03-15 21:27:25.745 [main] DEBUG a00587586.db.Database - Found the target table named: A00123456_Customers
+2020-03-15 21:27:25.917 [main] INFO  a00587586.CustomerDaoTester - Getting the customer IDs
+2020-03-15 21:27:25.917 [main] DEBUG a00587586.data.customer.CustomerDao - SELECT id FROM A00123456_Customers
+2020-03-15 21:27:25.964 [main] DEBUG a00587586.data.customer.CustomerDao - Loaded 5 customer IDs from the database
+2020-03-15 21:27:25.964 [main] INFO  a00587586.CustomerDaoTester - Customer IDs: [1, 2, 3, 4, 5]
+2020-03-15 21:27:25.964 [main] INFO  a00587586.CustomerDaoTester - 1
+2020-03-15 21:27:25.964 [main] DEBUG a00587586.data.customer.CustomerDao - SELECT * FROM A00123456_Customers WHERE id = 1
+2020-03-15 21:27:26.001 [main] INFO  a00587586.CustomerDaoTester - Customer [id=1, firstName=Fred, lastName=Fish, street=5707 Sidley St, city=Burnaby, postalCode=V5J5E6, phone=6044335004, emailAddress=fredfish@imperial.net, joinedDate=2008-03-22]
+2020-03-15 21:27:26.001 [main] INFO  a00587586.CustomerDaoTester - 2
+2020-03-15 21:27:26.001 [main] DEBUG a00587586.data.customer.CustomerDao - SELECT * FROM A00123456_Customers WHERE id = 2
+2020-03-15 21:27:26.049 [main] INFO  a00587586.CustomerDaoTester - Customer [id=2, firstName=Laurie, lastName=Nash, street=2816 Commercial Dr, city=Vancouver, postalCode=V5N4C6, phone=6048760182, emailAddress=laurieeenash@modern.com, joinedDate=2014-08-28]
+2020-03-15 21:27:26.049 [main] INFO  a00587586.CustomerDaoTester - 3
+2020-03-15 21:27:26.049 [main] DEBUG a00587586.data.customer.CustomerDao - SELECT * FROM A00123456_Customers WHERE id = 3
+2020-03-15 21:27:26.089 [main] INFO  a00587586.CustomerDaoTester - Customer [id=3, firstName=Conrad, lastName=Washington, street=13479 King George Blvd, city=Surrey, postalCode=V3T2T8, phone=6045884988, emailAddress=cwash@daytona.net, joinedDate=2011-07-12]
+2020-03-15 21:27:26.089 [main] INFO  a00587586.CustomerDaoTester - 4
+2020-03-15 21:27:26.089 [main] DEBUG a00587586.data.customer.CustomerDao - SELECT * FROM A00123456_Customers WHERE id = 4
+2020-03-15 21:27:26.130 [main] INFO  a00587586.CustomerDaoTester - Customer [id=4, firstName=Jeanette, lastName=Price, street=21000 Westminster Hwy, city=Richmond, postalCode=V6V2S9, phone=6042762552, emailAddress=priceizrite@pacific.com, joinedDate=2015-10-03]
+2020-03-15 21:27:26.130 [main] INFO  a00587586.CustomerDaoTester - 5
+2020-03-15 21:27:26.130 [main] DEBUG a00587586.data.customer.CustomerDao - SELECT * FROM A00123456_Customers WHERE id = 5
+2020-03-15 21:27:26.161 [main] INFO  a00587586.CustomerDaoTester - Customer [id=5, firstName=Mark, lastName=Chan, street=3766 E 1st Ave, city=Burnaby, postalCode=V5C3V9, phone=6042931022, emailAddress=mchan@hcenter.com, joinedDate=2010-04-01]
+2020-03-15 21:27:26.208 [main] INFO  a00587586.CustomerDaoTester - 5
+2020-03-15 21:27:26.208 [main] INFO  a00587586.Lab7 - End: 2020-03-16T04:27:26.208142600Z
+2020-03-15 21:27:26.208 [main] INFO  a00587586.Lab7 - Duration: 1605 ms
+2020-03-15 21:39:42.203 [main] INFO  a00587586.Lab7 - Start: 2020-03-16T04:39:41.825785200Z
+2020-03-15 21:39:42.206 [main] DEBUG a00587586.db.Database - Loading database properties from db.properties
+2020-03-15 21:39:42.207 [main] DEBUG a00587586.db.Database - com.microsoft.sqlserver.jdbc.SQLServerDriver
+2020-03-15 21:39:42.269 [main] DEBUG a00587586.db.Database - Driver loaded
+2020-03-15 21:39:42.269 [main] DEBUG a00587586.db.Database - DB URL=jdbc:sqlserver://Beangrinder.bcit.ca
+2020-03-15 21:39:42.270 [main] DEBUG a00587586.db.Database - DB USER=javastudent
+2020-03-15 21:39:42.270 [main] DEBUG a00587586.db.Database - DB URL=compjava
+2020-03-15 21:39:42.833 [main] DEBUG a00587586.db.Database - Database connected
+2020-03-15 21:39:42.988 [main] DEBUG a00587586.db.Database - Found the target table named: A00123456_Customers
+2020-03-15 21:39:43.159 [main] INFO  a00587586.CustomerDaoTester - Getting the customer IDs
+2020-03-15 21:39:43.159 [main] DEBUG a00587586.data.customer.CustomerDao - SELECT id FROM A00123456_Customers
+2020-03-15 21:39:43.206 [main] DEBUG a00587586.data.customer.CustomerDao - Loaded 5 customer IDs from the database
+2020-03-15 21:39:43.206 [main] INFO  a00587586.CustomerDaoTester - Customer IDs: [1, 2, 3, 4, 5]
+2020-03-15 21:39:43.206 [main] INFO  a00587586.CustomerDaoTester - 1
+2020-03-15 21:39:43.206 [main] DEBUG a00587586.data.customer.CustomerDao - SELECT * FROM A00123456_Customers WHERE id = 1
+2020-03-15 21:39:43.246 [main] INFO  a00587586.CustomerDaoTester - Customer [id=1, firstName=Fred, lastName=Fish, street=5707 Sidley St, city=Burnaby, postalCode=V5J5E6, phone=6044335004, emailAddress=fredfish@imperial.net, joinedDate=2008-03-22]
+2020-03-15 21:39:43.246 [main] INFO  a00587586.CustomerDaoTester - 2
+2020-03-15 21:39:43.246 [main] DEBUG a00587586.data.customer.CustomerDao - SELECT * FROM A00123456_Customers WHERE id = 2
+2020-03-15 21:39:43.293 [main] INFO  a00587586.CustomerDaoTester - Customer [id=2, firstName=Laurie, lastName=Nash, street=2816 Commercial Dr, city=Vancouver, postalCode=V5N4C6, phone=6048760182, emailAddress=laurieeenash@modern.com, joinedDate=2014-08-28]
+2020-03-15 21:39:43.293 [main] INFO  a00587586.CustomerDaoTester - 3
+2020-03-15 21:39:43.293 [main] DEBUG a00587586.data.customer.CustomerDao - SELECT * FROM A00123456_Customers WHERE id = 3
+2020-03-15 21:39:43.334 [main] INFO  a00587586.CustomerDaoTester - Customer [id=3, firstName=Conrad, lastName=Washington, street=13479 King George Blvd, city=Surrey, postalCode=V3T2T8, phone=6045884988, emailAddress=cwash@daytona.net, joinedDate=2011-07-12]
+2020-03-15 21:39:43.334 [main] INFO  a00587586.CustomerDaoTester - 4
+2020-03-15 21:39:43.334 [main] DEBUG a00587586.data.customer.CustomerDao - SELECT * FROM A00123456_Customers WHERE id = 4
+2020-03-15 21:39:43.366 [main] INFO  a00587586.CustomerDaoTester - Customer [id=4, firstName=Jeanette, lastName=Price, street=21000 Westminster Hwy, city=Richmond, postalCode=V6V2S9, phone=6042762552, emailAddress=priceizrite@pacific.com, joinedDate=2015-10-03]
+2020-03-15 21:39:43.366 [main] INFO  a00587586.CustomerDaoTester - 5
+2020-03-15 21:39:43.366 [main] DEBUG a00587586.data.customer.CustomerDao - SELECT * FROM A00123456_Customers WHERE id = 5
+2020-03-15 21:39:43.413 [main] INFO  a00587586.CustomerDaoTester - Customer [id=5, firstName=Mark, lastName=Chan, street=3766 E 1st Ave, city=Burnaby, postalCode=V5C3V9, phone=6042931022, emailAddress=mchan@hcenter.com, joinedDate=2010-04-01]
+2020-03-15 21:39:43.444 [main] INFO  a00587586.CustomerDaoTester - 5
+2020-03-15 21:39:43.444 [main] INFO  a00587586.Lab7 - End: 2020-03-16T04:39:43.444293700Z
+2020-03-15 21:39:43.444 [main] INFO  a00587586.Lab7 - Duration: 1618 ms
+2020-03-15 21:40:10.930 [main] INFO  a00587586.Lab7 - Start: 2020-03-16T04:40:10.564646800Z
+2020-03-15 21:40:10.930 [main] DEBUG a00587586.db.Database - Loading database properties from db.properties
+2020-03-15 21:40:10.930 [main] DEBUG a00587586.db.Database - com.microsoft.sqlserver.jdbc.SQLServerDriver
+2020-03-15 21:40:11.008 [main] DEBUG a00587586.db.Database - Driver loaded
+2020-03-15 21:40:11.008 [main] DEBUG a00587586.db.Database - DB URL=jdbc:sqlserver://Beangrinder.bcit.ca
+2020-03-15 21:40:11.008 [main] DEBUG a00587586.db.Database - DB USER=javastudent
+2020-03-15 21:40:11.008 [main] DEBUG a00587586.db.Database - DB URL=compjava
+2020-03-15 21:40:11.572 [main] DEBUG a00587586.db.Database - Database connected
+2020-03-15 21:40:11.724 [main] DEBUG a00587586.db.Database - Found the target table named: A00123456_Customers
+2020-03-15 21:40:11.896 [main] INFO  a00587586.CustomerDaoTester - Getting the customer IDs
+2020-03-15 21:40:11.896 [main] DEBUG a00587586.data.customer.CustomerDao - SELECT id FROM A00123456_Customers
+2020-03-15 21:40:11.944 [main] DEBUG a00587586.data.customer.CustomerDao - Loaded 5 customer IDs from the database
+2020-03-15 21:40:11.944 [main] INFO  a00587586.CustomerDaoTester - Customer IDs: [1, 2, 3, 4, 5]
+2020-03-15 21:40:11.945 [main] INFO  a00587586.CustomerDaoTester - 1
+2020-03-15 21:40:11.945 [main] DEBUG a00587586.data.customer.CustomerDao - SELECT * FROM A00123456_Customers WHERE id = 1
+2020-03-15 21:40:11.965 [main] INFO  a00587586.CustomerDaoTester - Customer [id=1, firstName=Fred, lastName=Fish, street=5707 Sidley St, city=Burnaby, postalCode=V5J5E6, phone=6044335004, emailAddress=fredfish@imperial.net, joinedDate=2008-03-22]
+2020-03-15 21:40:11.965 [main] INFO  a00587586.CustomerDaoTester - 2
+2020-03-15 21:40:11.965 [main] DEBUG a00587586.data.customer.CustomerDao - SELECT * FROM A00123456_Customers WHERE id = 2
+2020-03-15 21:40:12.009 [main] INFO  a00587586.CustomerDaoTester - Customer [id=2, firstName=Laurie, lastName=Nash, street=2816 Commercial Dr, city=Vancouver, postalCode=V5N4C6, phone=6048760182, emailAddress=laurieeenash@modern.com, joinedDate=2014-08-28]
+2020-03-15 21:40:12.009 [main] INFO  a00587586.CustomerDaoTester - 3
+2020-03-15 21:40:12.009 [main] DEBUG a00587586.data.customer.CustomerDao - SELECT * FROM A00123456_Customers WHERE id = 3
+2020-03-15 21:40:12.040 [main] INFO  a00587586.CustomerDaoTester - Customer [id=3, firstName=Conrad, lastName=Washington, street=13479 King George Blvd, city=Surrey, postalCode=V3T2T8, phone=6045884988, emailAddress=cwash@daytona.net, joinedDate=2011-07-12]
+2020-03-15 21:40:12.040 [main] INFO  a00587586.CustomerDaoTester - 4
+2020-03-15 21:40:12.040 [main] DEBUG a00587586.data.customer.CustomerDao - SELECT * FROM A00123456_Customers WHERE id = 4
+2020-03-15 21:40:12.087 [main] INFO  a00587586.CustomerDaoTester - Customer [id=4, firstName=Jeanette, lastName=Price, street=21000 Westminster Hwy, city=Richmond, postalCode=V6V2S9, phone=6042762552, emailAddress=priceizrite@pacific.com, joinedDate=2015-10-03]
+2020-03-15 21:40:12.087 [main] INFO  a00587586.CustomerDaoTester - 5
+2020-03-15 21:40:12.087 [main] DEBUG a00587586.data.customer.CustomerDao - SELECT * FROM A00123456_Customers WHERE id = 5
+2020-03-15 21:40:12.118 [main] INFO  a00587586.CustomerDaoTester - Customer [id=5, firstName=Mark, lastName=Chan, street=3766 E 1st Ave, city=Burnaby, postalCode=V5C3V9, phone=6042931022, emailAddress=mchan@hcenter.com, joinedDate=2010-04-01]
+2020-03-15 21:40:12.165 [main] INFO  a00587586.CustomerDaoTester - 5
+2020-03-15 21:40:12.165 [main] INFO  a00587586.Lab7 - End: 2020-03-16T04:40:12.165666800Z
+2020-03-15 21:40:12.165 [main] INFO  a00587586.Lab7 - Duration: 1601 ms
+2020-03-15 21:40:44.060 [main] INFO  a00587586.Lab7 - Start: 2020-03-16T04:40:43.685702100Z
+2020-03-15 21:40:44.060 [main] DEBUG a00587586.db.Database - Loading database properties from db.properties
+2020-03-15 21:40:44.060 [main] DEBUG a00587586.db.Database - com.microsoft.sqlserver.jdbc.SQLServerDriver
+2020-03-15 21:40:44.123 [main] DEBUG a00587586.db.Database - Driver loaded
+2020-03-15 21:40:44.123 [main] DEBUG a00587586.db.Database - DB URL=jdbc:sqlserver://Beangrinder.bcit.ca
+2020-03-15 21:40:44.123 [main] DEBUG a00587586.db.Database - DB USER=javastudent
+2020-03-15 21:40:44.123 [main] DEBUG a00587586.db.Database - DB URL=compjava
+2020-03-15 21:40:44.672 [main] DEBUG a00587586.db.Database - Database connected
+2020-03-15 21:40:44.815 [main] DEBUG a00587586.db.Database - Found the target table named: A00123456_Customers
+2020-03-15 21:40:44.986 [main] INFO  a00587586.CustomerDaoTester - Getting the customer IDs
+2020-03-15 21:40:44.986 [main] DEBUG a00587586.data.customer.CustomerDao - SELECT id FROM A00123456_Customers
+2020-03-15 21:40:45.033 [main] DEBUG a00587586.data.customer.CustomerDao - Loaded 5 customer IDs from the database
+2020-03-15 21:40:45.033 [main] INFO  a00587586.CustomerDaoTester - Customer IDs: [1, 2, 3, 4, 5]
+2020-03-15 21:40:45.033 [main] INFO  a00587586.CustomerDaoTester - 1
+2020-03-15 21:40:45.033 [main] DEBUG a00587586.data.customer.CustomerDao - SELECT * FROM A00123456_Customers WHERE id = 1
+2020-03-15 21:40:45.067 [main] INFO  a00587586.CustomerDaoTester - Customer [id=1, firstName=Fred, lastName=Fish, street=5707 Sidley St, city=Burnaby, postalCode=V5J5E6, phone=6044335004, emailAddress=fredfish@imperial.net, joinedDate=2008-03-22]
+2020-03-15 21:40:45.067 [main] INFO  a00587586.CustomerDaoTester - 2
+2020-03-15 21:40:45.067 [main] DEBUG a00587586.data.customer.CustomerDao - SELECT * FROM A00123456_Customers WHERE id = 2
+2020-03-15 21:40:45.114 [main] INFO  a00587586.CustomerDaoTester - Customer [id=2, firstName=Laurie, lastName=Nash, street=2816 Commercial Dr, city=Vancouver, postalCode=V5N4C6, phone=6048760182, emailAddress=laurieeenash@modern.com, joinedDate=2014-08-28]
+2020-03-15 21:40:45.114 [main] INFO  a00587586.CustomerDaoTester - 3
+2020-03-15 21:40:45.114 [main] DEBUG a00587586.data.customer.CustomerDao - SELECT * FROM A00123456_Customers WHERE id = 3
+2020-03-15 21:40:45.146 [main] INFO  a00587586.CustomerDaoTester - Customer [id=3, firstName=Conrad, lastName=Washington, street=13479 King George Blvd, city=Surrey, postalCode=V3T2T8, phone=6045884988, emailAddress=cwash@daytona.net, joinedDate=2011-07-12]
+2020-03-15 21:40:45.146 [main] INFO  a00587586.CustomerDaoTester - 4
+2020-03-15 21:40:45.146 [main] DEBUG a00587586.data.customer.CustomerDao - SELECT * FROM A00123456_Customers WHERE id = 4
+2020-03-15 21:40:45.192 [main] INFO  a00587586.CustomerDaoTester - Customer [id=4, firstName=Jeanette, lastName=Price, street=21000 Westminster Hwy, city=Richmond, postalCode=V6V2S9, phone=6042762552, emailAddress=priceizrite@pacific.com, joinedDate=2015-10-03]
+2020-03-15 21:40:45.192 [main] INFO  a00587586.CustomerDaoTester - 5
+2020-03-15 21:40:45.192 [main] DEBUG a00587586.data.customer.CustomerDao - SELECT * FROM A00123456_Customers WHERE id = 5
+2020-03-15 21:40:45.224 [main] INFO  a00587586.CustomerDaoTester - Customer [id=5, firstName=Mark, lastName=Chan, street=3766 E 1st Ave, city=Burnaby, postalCode=V5C3V9, phone=6042931022, emailAddress=mchan@hcenter.com, joinedDate=2010-04-01]
+2020-03-15 21:40:45.270 [main] INFO  a00587586.CustomerDaoTester - 5
+2020-03-15 21:40:45.270 [main] INFO  a00587586.Lab7 - End: 2020-03-16T04:40:45.270981300Z
+2020-03-15 21:40:45.270 [main] INFO  a00587586.Lab7 - Duration: 1585 ms
+2020-03-15 21:42:24.799 [main] INFO  a00587586.Lab7 - Start: 2020-03-16T04:42:24.439392200Z
+2020-03-15 21:42:24.799 [main] DEBUG a00587586.db.Database - Loading database properties from db.properties
+2020-03-15 21:42:24.815 [main] DEBUG a00587586.db.Database - com.microsoft.sqlserver.jdbc.SQLServerDriver
+2020-03-15 21:42:24.878 [main] DEBUG a00587586.db.Database - Driver loaded
+2020-03-15 21:42:24.878 [main] DEBUG a00587586.db.Database - DB URL=jdbc:sqlserver://Beangrinder.bcit.ca
+2020-03-15 21:42:24.878 [main] DEBUG a00587586.db.Database - DB USER=javastudent
+2020-03-15 21:42:24.878 [main] DEBUG a00587586.db.Database - DB URL=compjava
+2020-03-15 21:42:25.430 [main] DEBUG a00587586.db.Database - Database connected
+2020-03-15 21:42:25.589 [main] DEBUG a00587586.db.Database - Found the target table named: A00123456_Customers
+2020-03-15 21:42:25.761 [main] INFO  a00587586.CustomerDaoTester - Getting the customer IDs
+2020-03-15 21:42:25.761 [main] DEBUG a00587586.data.customer.CustomerDao - SELECT id FROM A00123456_Customers
+2020-03-15 21:42:25.792 [main] DEBUG a00587586.data.customer.CustomerDao - Loaded 5 customer IDs from the database
+2020-03-15 21:42:25.792 [main] INFO  a00587586.CustomerDaoTester - Customer IDs: [1, 2, 3, 4, 5]
+2020-03-15 21:42:25.792 [main] INFO  a00587586.CustomerDaoTester - 1
+2020-03-15 21:42:25.792 [main] DEBUG a00587586.data.customer.CustomerDao - SELECT * FROM A00123456_Customers WHERE id = 1
+2020-03-15 21:42:25.832 [main] INFO  a00587586.CustomerDaoTester - Customer [id=1, firstName=Fred, lastName=Fish, street=5707 Sidley St, city=Burnaby, postalCode=V5J5E6, phone=6044335004, emailAddress=fredfish@imperial.net, joinedDate=2008-03-22]
+2020-03-15 21:42:25.832 [main] INFO  a00587586.CustomerDaoTester - 2
+2020-03-15 21:42:25.832 [main] DEBUG a00587586.data.customer.CustomerDao - SELECT * FROM A00123456_Customers WHERE id = 2
+2020-03-15 21:42:25.879 [main] INFO  a00587586.CustomerDaoTester - Customer [id=2, firstName=Laurie, lastName=Nash, street=2816 Commercial Dr, city=Vancouver, postalCode=V5N4C6, phone=6048760182, emailAddress=laurieeenash@modern.com, joinedDate=2014-08-28]
+2020-03-15 21:42:25.879 [main] INFO  a00587586.CustomerDaoTester - 3
+2020-03-15 21:42:25.879 [main] DEBUG a00587586.data.customer.CustomerDao - SELECT * FROM A00123456_Customers WHERE id = 3
+2020-03-15 21:42:25.910 [main] INFO  a00587586.CustomerDaoTester - Customer [id=3, firstName=Conrad, lastName=Washington, street=13479 King George Blvd, city=Surrey, postalCode=V3T2T8, phone=6045884988, emailAddress=cwash@daytona.net, joinedDate=2011-07-12]
+2020-03-15 21:42:25.910 [main] INFO  a00587586.CustomerDaoTester - 4
+2020-03-15 21:42:25.910 [main] DEBUG a00587586.data.customer.CustomerDao - SELECT * FROM A00123456_Customers WHERE id = 4
+2020-03-15 21:42:25.957 [main] INFO  a00587586.CustomerDaoTester - Customer [id=4, firstName=Jeanette, lastName=Price, street=21000 Westminster Hwy, city=Richmond, postalCode=V6V2S9, phone=6042762552, emailAddress=priceizrite@pacific.com, joinedDate=2015-10-03]
+2020-03-15 21:42:25.957 [main] INFO  a00587586.CustomerDaoTester - 5
+2020-03-15 21:42:25.957 [main] DEBUG a00587586.data.customer.CustomerDao - SELECT * FROM A00123456_Customers WHERE id = 5
+2020-03-15 21:42:26.004 [main] INFO  a00587586.CustomerDaoTester - Customer [id=5, firstName=Mark, lastName=Chan, street=3766 E 1st Ave, city=Burnaby, postalCode=V5C3V9, phone=6042931022, emailAddress=mchan@hcenter.com, joinedDate=2010-04-01]
+2020-03-15 21:42:26.044 [main] INFO  a00587586.CustomerDaoTester - 5
+2020-03-15 21:42:26.045 [main] INFO  a00587586.Lab7 - End: 2020-03-16T04:42:26.045086300Z
+2020-03-15 21:42:26.045 [main] INFO  a00587586.Lab7 - Duration: 1605 ms
+2020-03-15 21:45:38.452 [main] INFO  a00587586.Lab7 - Start: 2020-03-16T04:45:38.092229500Z
+2020-03-15 21:45:38.468 [main] DEBUG a00587586.db.Database - Loading database properties from db.properties
+2020-03-15 21:45:38.468 [main] DEBUG a00587586.db.Database - com.microsoft.sqlserver.jdbc.SQLServerDriver
+2020-03-15 21:45:38.530 [main] DEBUG a00587586.db.Database - Driver loaded
+2020-03-15 21:45:38.530 [main] DEBUG a00587586.db.Database - DB URL=jdbc:sqlserver://Beangrinder.bcit.ca
+2020-03-15 21:45:38.530 [main] DEBUG a00587586.db.Database - DB USER=javastudent
+2020-03-15 21:45:38.530 [main] DEBUG a00587586.db.Database - DB URL=compjava
+2020-03-15 21:45:39.095 [main] DEBUG a00587586.db.Database - Database connected
+2020-03-15 21:45:39.253 [main] DEBUG a00587586.db.Database - Found the target table named: A00123456_Customers
+2020-03-15 21:45:39.424 [main] INFO  a00587586.CustomerDaoTester - Getting the customer IDs
+2020-03-15 21:45:39.424 [main] DEBUG a00587586.data.customer.CustomerDao - SELECT id FROM A00123456_Customers
+2020-03-15 21:45:39.464 [main] DEBUG a00587586.data.customer.CustomerDao - Loaded 5 customer IDs from the database
+2020-03-15 21:45:39.465 [main] INFO  a00587586.CustomerDaoTester - Customer IDs: [1, 2, 3, 4, 5]
+2020-03-15 21:45:39.465 [main] INFO  a00587586.CustomerDaoTester - 1
+2020-03-15 21:45:39.465 [main] DEBUG a00587586.data.customer.CustomerDao - SELECT * FROM A00123456_Customers WHERE id = 1
+2020-03-15 21:45:39.506 [main] INFO  a00587586.CustomerDaoTester - Customer [id=1, firstName=Fred, lastName=Fish, street=5707 Sidley St, city=Burnaby, postalCode=V5J5E6, phone=6044335004, emailAddress=fredfish@imperial.net, joinedDate=2008-03-22]
+2020-03-15 21:45:39.506 [main] INFO  a00587586.CustomerDaoTester - 2
+2020-03-15 21:45:39.507 [main] DEBUG a00587586.data.customer.CustomerDao - SELECT * FROM A00123456_Customers WHERE id = 2
+2020-03-15 21:45:39.546 [main] INFO  a00587586.CustomerDaoTester - Customer [id=2, firstName=Laurie, lastName=Nash, street=2816 Commercial Dr, city=Vancouver, postalCode=V5N4C6, phone=6048760182, emailAddress=laurieeenash@modern.com, joinedDate=2014-08-28]
+2020-03-15 21:45:39.546 [main] INFO  a00587586.CustomerDaoTester - 3
+2020-03-15 21:45:39.546 [main] DEBUG a00587586.data.customer.CustomerDao - SELECT * FROM A00123456_Customers WHERE id = 3
+2020-03-15 21:45:39.586 [main] INFO  a00587586.CustomerDaoTester - Customer [id=3, firstName=Conrad, lastName=Washington, street=13479 King George Blvd, city=Surrey, postalCode=V3T2T8, phone=6045884988, emailAddress=cwash@daytona.net, joinedDate=2011-07-12]
+2020-03-15 21:45:39.586 [main] INFO  a00587586.CustomerDaoTester - 4
+2020-03-15 21:45:39.587 [main] DEBUG a00587586.data.customer.CustomerDao - SELECT * FROM A00123456_Customers WHERE id = 4
+2020-03-15 21:45:39.627 [main] INFO  a00587586.CustomerDaoTester - Customer [id=4, firstName=Jeanette, lastName=Price, street=21000 Westminster Hwy, city=Richmond, postalCode=V6V2S9, phone=6042762552, emailAddress=priceizrite@pacific.com, joinedDate=2015-10-03]
+2020-03-15 21:45:39.627 [main] INFO  a00587586.CustomerDaoTester - 5
+2020-03-15 21:45:39.627 [main] DEBUG a00587586.data.customer.CustomerDao - SELECT * FROM A00123456_Customers WHERE id = 5
+2020-03-15 21:45:39.667 [main] INFO  a00587586.CustomerDaoTester - Customer [id=5, firstName=Mark, lastName=Chan, street=3766 E 1st Ave, city=Burnaby, postalCode=V5C3V9, phone=6042931022, emailAddress=mchan@hcenter.com, joinedDate=2010-04-01]
+2020-03-15 21:45:39.706 [main] INFO  a00587586.CustomerDaoTester - 5
+2020-03-15 21:45:39.706 [main] INFO  a00587586.Lab7 - End: 2020-03-16T04:45:39.706766900Z
+2020-03-15 21:45:39.707 [main] INFO  a00587586.Lab7 - Duration: 1614 ms
+2020-03-15 21:46:55.596 [main] INFO  a00587586.Lab7 - Start: 2020-03-16T04:46:55.234192Z
+2020-03-15 21:46:55.612 [main] DEBUG a00587586.db.Database - Loading database properties from db.properties
+2020-03-15 21:46:55.612 [main] DEBUG a00587586.db.Database - com.microsoft.sqlserver.jdbc.SQLServerDriver
+2020-03-15 21:46:55.674 [main] DEBUG a00587586.db.Database - Driver loaded
+2020-03-15 21:46:55.674 [main] DEBUG a00587586.db.Database - DB URL=jdbc:sqlserver://Beangrinder.bcit.ca
+2020-03-15 21:46:55.674 [main] DEBUG a00587586.db.Database - DB USER=javastudent
+2020-03-15 21:46:55.674 [main] DEBUG a00587586.db.Database - DB URL=compjava
+2020-03-15 21:46:56.223 [main] DEBUG a00587586.db.Database - Database connected
+2020-03-15 21:46:56.381 [main] DEBUG a00587586.db.Database - Found the target table named: A00123456_Customers
+2020-03-15 21:46:56.475 [main] INFO  a00587586.CustomerDaoTester - Getting the customer IDs
+2020-03-15 21:46:56.475 [main] DEBUG a00587586.data.customer.CustomerDao - SELECT id FROM A00123456_Customers
+2020-03-15 21:46:56.522 [main] DEBUG a00587586.data.customer.CustomerDao - Loaded 5 customer IDs from the database
+2020-03-15 21:46:56.522 [main] INFO  a00587586.CustomerDaoTester - Customer IDs: [1, 2, 3, 4, 5]
+2020-03-15 21:46:56.522 [main] INFO  a00587586.CustomerDaoTester - 1
+2020-03-15 21:46:56.522 [main] DEBUG a00587586.data.customer.CustomerDao - SELECT * FROM A00123456_Customers WHERE id = 1
+2020-03-15 21:46:56.568 [main] INFO  a00587586.CustomerDaoTester - Customer [id=1, firstName=Fred, lastName=Fish, street=5707 Sidley St, city=Burnaby, postalCode=V5J5E6, phone=6044335004, emailAddress=fredfish@imperial.net, joinedDate=2008-03-22]
+2020-03-15 21:46:56.568 [main] INFO  a00587586.CustomerDaoTester - 2
+2020-03-15 21:46:56.568 [main] DEBUG a00587586.data.customer.CustomerDao - SELECT * FROM A00123456_Customers WHERE id = 2
+2020-03-15 21:46:56.600 [main] INFO  a00587586.CustomerDaoTester - Customer [id=2, firstName=Laurie, lastName=Nash, street=2816 Commercial Dr, city=Vancouver, postalCode=V5N4C6, phone=6048760182, emailAddress=laurieeenash@modern.com, joinedDate=2014-08-28]
+2020-03-15 21:46:56.600 [main] INFO  a00587586.CustomerDaoTester - 3
+2020-03-15 21:46:56.600 [main] DEBUG a00587586.data.customer.CustomerDao - SELECT * FROM A00123456_Customers WHERE id = 3
+2020-03-15 21:46:56.646 [main] INFO  a00587586.CustomerDaoTester - Customer [id=3, firstName=Conrad, lastName=Washington, street=13479 King George Blvd, city=Surrey, postalCode=V3T2T8, phone=6045884988, emailAddress=cwash@daytona.net, joinedDate=2011-07-12]
+2020-03-15 21:46:56.646 [main] INFO  a00587586.CustomerDaoTester - 4
+2020-03-15 21:46:56.646 [main] DEBUG a00587586.data.customer.CustomerDao - SELECT * FROM A00123456_Customers WHERE id = 4
+2020-03-15 21:46:56.677 [main] INFO  a00587586.CustomerDaoTester - Customer [id=4, firstName=Jeanette, lastName=Price, street=21000 Westminster Hwy, city=Richmond, postalCode=V6V2S9, phone=6042762552, emailAddress=priceizrite@pacific.com, joinedDate=2015-10-03]
+2020-03-15 21:46:56.677 [main] INFO  a00587586.CustomerDaoTester - 5
+2020-03-15 21:46:56.677 [main] DEBUG a00587586.data.customer.CustomerDao - SELECT * FROM A00123456_Customers WHERE id = 5
+2020-03-15 21:46:56.725 [main] INFO  a00587586.CustomerDaoTester - Customer [id=5, firstName=Mark, lastName=Chan, street=3766 E 1st Ave, city=Burnaby, postalCode=V5C3V9, phone=6042931022, emailAddress=mchan@hcenter.com, joinedDate=2010-04-01]
+2020-03-15 21:46:56.772 [main] INFO  a00587586.CustomerDaoTester - 5
+2020-03-15 21:46:56.883 [main] INFO  a00587586.Lab7 - End: 2020-03-16T04:46:56.883640800Z
+2020-03-15 21:46:56.883 [main] INFO  a00587586.Lab7 - Duration: 1649 ms
+2020-03-15 21:50:41.694 [main] INFO  a00587586.Lab7 - Start: 2020-03-16T04:50:41.316780200Z
+2020-03-15 21:50:41.696 [main] DEBUG a00587586.db.Database - Loading database properties from db.properties
+2020-03-15 21:50:41.698 [main] DEBUG a00587586.db.Database - com.microsoft.sqlserver.jdbc.SQLServerDriver
+2020-03-15 21:50:41.755 [main] DEBUG a00587586.db.Database - Driver loaded
+2020-03-15 21:50:41.755 [main] DEBUG a00587586.db.Database - DB URL=jdbc:sqlserver://Beangrinder.bcit.ca
+2020-03-15 21:50:41.755 [main] DEBUG a00587586.db.Database - DB USER=javastudent
+2020-03-15 21:50:41.755 [main] DEBUG a00587586.db.Database - DB URL=compjava
+2020-03-15 21:50:42.326 [main] DEBUG a00587586.db.Database - Database connected
+2020-03-15 21:50:42.479 [main] DEBUG a00587586.db.Database - Found the target table named: A00123456_Customers
+2020-03-15 21:50:42.657 [main] INFO  a00587586.CustomerDaoTester - Getting the customer IDs
+2020-03-15 21:50:42.657 [main] DEBUG a00587586.data.customer.CustomerDao - SELECT id FROM A00123456_Customers
+2020-03-15 21:50:42.688 [main] DEBUG a00587586.data.customer.CustomerDao - Loaded 5 customer IDs from the database
+2020-03-15 21:50:42.688 [main] INFO  a00587586.CustomerDaoTester - Customer IDs: [1, 2, 3, 4, 5]
+2020-03-15 21:50:42.688 [main] INFO  a00587586.CustomerDaoTester - 1
+2020-03-15 21:50:42.688 [main] DEBUG a00587586.data.customer.CustomerDao - SELECT * FROM A00123456_Customers WHERE id = 1
+2020-03-15 21:50:42.732 [main] INFO  a00587586.CustomerDaoTester - Customer [id=1, firstName=Fred, lastName=Fish, street=5707 Sidley St, city=Burnaby, postalCode=V5J5E6, phone=6044335004, emailAddress=fredfish@imperial.net, joinedDate=2008-03-22]
+2020-03-15 21:50:42.733 [main] INFO  a00587586.CustomerDaoTester - 2
+2020-03-15 21:50:42.733 [main] DEBUG a00587586.data.customer.CustomerDao - SELECT * FROM A00123456_Customers WHERE id = 2
+2020-03-15 21:50:42.766 [main] INFO  a00587586.CustomerDaoTester - Customer [id=2, firstName=Laurie, lastName=Nash, street=2816 Commercial Dr, city=Vancouver, postalCode=V5N4C6, phone=6048760182, emailAddress=laurieeenash@modern.com, joinedDate=2014-08-28]
+2020-03-15 21:50:42.766 [main] INFO  a00587586.CustomerDaoTester - 3
+2020-03-15 21:50:42.766 [main] DEBUG a00587586.data.customer.CustomerDao - SELECT * FROM A00123456_Customers WHERE id = 3
+2020-03-15 21:50:42.813 [main] INFO  a00587586.CustomerDaoTester - Customer [id=3, firstName=Conrad, lastName=Washington, street=13479 King George Blvd, city=Surrey, postalCode=V3T2T8, phone=6045884988, emailAddress=cwash@daytona.net, joinedDate=2011-07-12]
+2020-03-15 21:50:42.813 [main] INFO  a00587586.CustomerDaoTester - 4
+2020-03-15 21:50:42.813 [main] DEBUG a00587586.data.customer.CustomerDao - SELECT * FROM A00123456_Customers WHERE id = 4
+2020-03-15 21:50:42.844 [main] INFO  a00587586.CustomerDaoTester - Customer [id=4, firstName=Jeanette, lastName=Price, street=21000 Westminster Hwy, city=Richmond, postalCode=V6V2S9, phone=6042762552, emailAddress=priceizrite@pacific.com, joinedDate=2015-10-03]
+2020-03-15 21:50:42.844 [main] INFO  a00587586.CustomerDaoTester - 5
+2020-03-15 21:50:42.844 [main] DEBUG a00587586.data.customer.CustomerDao - SELECT * FROM A00123456_Customers WHERE id = 5
+2020-03-15 21:50:42.891 [main] INFO  a00587586.CustomerDaoTester - Customer [id=5, firstName=Mark, lastName=Chan, street=3766 E 1st Ave, city=Burnaby, postalCode=V5C3V9, phone=6042931022, emailAddress=mchan@hcenter.com, joinedDate=2010-04-01]
+2020-03-15 21:50:42.922 [main] INFO  a00587586.CustomerDaoTester - 5
+2020-03-15 21:50:42.922 [main] INFO  a00587586.Lab7 - End: 2020-03-16T04:50:42.922648300Z
+2020-03-15 21:50:42.922 [main] INFO  a00587586.Lab7 - Duration: 1605 ms
+2020-03-15 21:51:10.686 [main] INFO  a00587586.Lab7 - Start: 2020-03-16T04:51:10.313938800Z
+2020-03-15 21:51:10.686 [main] DEBUG a00587586.db.Database - Loading database properties from db.properties
+2020-03-15 21:51:10.686 [main] DEBUG a00587586.db.Database - com.microsoft.sqlserver.jdbc.SQLServerDriver
+2020-03-15 21:51:10.755 [main] DEBUG a00587586.db.Database - Driver loaded
+2020-03-15 21:51:10.755 [main] DEBUG a00587586.db.Database - DB URL=jdbc:sqlserver://Beangrinder.bcit.ca
+2020-03-15 21:51:10.755 [main] DEBUG a00587586.db.Database - DB USER=javastudent
+2020-03-15 21:51:10.755 [main] DEBUG a00587586.db.Database - DB URL=compjava
+2020-03-15 21:51:11.336 [main] DEBUG a00587586.db.Database - Database connected
+2020-03-15 21:51:11.472 [main] DEBUG a00587586.db.Database - Found the target table named: A00123456_Customers
+2020-03-15 21:51:11.535 [main] INFO  a00587586.CustomerDaoTester - Getting the customer IDs
+2020-03-15 21:51:11.535 [main] DEBUG a00587586.data.customer.CustomerDao - SELECT id FROM A00123456_Customers
+2020-03-15 21:51:11.582 [main] DEBUG a00587586.data.customer.CustomerDao - Loaded 5 customer IDs from the database
+2020-03-15 21:51:11.582 [main] INFO  a00587586.CustomerDaoTester - Customer IDs: [1, 2, 3, 4, 5]
+2020-03-15 21:51:11.582 [main] INFO  a00587586.CustomerDaoTester - 1
+2020-03-15 21:51:11.582 [main] DEBUG a00587586.data.customer.CustomerDao - SELECT * FROM A00123456_Customers WHERE id = 1
+2020-03-15 21:51:11.613 [main] INFO  a00587586.CustomerDaoTester - Customer [id=1, firstName=Fred, lastName=Fish, street=5707 Sidley St, city=Burnaby, postalCode=V5J5E6, phone=6044335004, emailAddress=fredfish@imperial.net, joinedDate=2008-03-22]
+2020-03-15 21:51:11.613 [main] INFO  a00587586.CustomerDaoTester - 2
+2020-03-15 21:51:11.628 [main] DEBUG a00587586.data.customer.CustomerDao - SELECT * FROM A00123456_Customers WHERE id = 2
+2020-03-15 21:51:11.660 [main] INFO  a00587586.CustomerDaoTester - Customer [id=2, firstName=Laurie, lastName=Nash, street=2816 Commercial Dr, city=Vancouver, postalCode=V5N4C6, phone=6048760182, emailAddress=laurieeenash@modern.com, joinedDate=2014-08-28]
+2020-03-15 21:51:11.660 [main] INFO  a00587586.CustomerDaoTester - 3
+2020-03-15 21:51:11.660 [main] DEBUG a00587586.data.customer.CustomerDao - SELECT * FROM A00123456_Customers WHERE id = 3
+2020-03-15 21:51:11.710 [main] INFO  a00587586.CustomerDaoTester - Customer [id=3, firstName=Conrad, lastName=Washington, street=13479 King George Blvd, city=Surrey, postalCode=V3T2T8, phone=6045884988, emailAddress=cwash@daytona.net, joinedDate=2011-07-12]
+2020-03-15 21:51:11.711 [main] INFO  a00587586.CustomerDaoTester - 4
+2020-03-15 21:51:11.711 [main] DEBUG a00587586.data.customer.CustomerDao - SELECT * FROM A00123456_Customers WHERE id = 4
+2020-03-15 21:51:11.750 [main] INFO  a00587586.CustomerDaoTester - Customer [id=4, firstName=Jeanette, lastName=Price, street=21000 Westminster Hwy, city=Richmond, postalCode=V6V2S9, phone=6042762552, emailAddress=priceizrite@pacific.com, joinedDate=2015-10-03]
+2020-03-15 21:51:11.750 [main] INFO  a00587586.CustomerDaoTester - 5
+2020-03-15 21:51:11.751 [main] DEBUG a00587586.data.customer.CustomerDao - SELECT * FROM A00123456_Customers WHERE id = 5
+2020-03-15 21:51:11.790 [main] INFO  a00587586.CustomerDaoTester - Customer [id=5, firstName=Mark, lastName=Chan, street=3766 E 1st Ave, city=Burnaby, postalCode=V5C3V9, phone=6042931022, emailAddress=mchan@hcenter.com, joinedDate=2010-04-01]
+2020-03-15 21:51:11.829 [main] INFO  a00587586.CustomerDaoTester - 5
+2020-03-15 21:51:11.939 [main] INFO  a00587586.Lab7 - End: 2020-03-16T04:51:11.939566300Z
+2020-03-15 21:51:11.940 [main] INFO  a00587586.Lab7 - Duration: 1625 ms
+2020-03-15 21:52:28.339 [main] INFO  a00587586.Lab7 - Start: 2020-03-16T04:52:27.974169500Z
+2020-03-15 21:52:28.339 [main] DEBUG a00587586.db.Database - Loading database properties from db.properties
+2020-03-15 21:52:28.354 [main] DEBUG a00587586.db.Database - com.microsoft.sqlserver.jdbc.SQLServerDriver
+2020-03-15 21:52:28.417 [main] DEBUG a00587586.db.Database - Driver loaded
+2020-03-15 21:52:28.417 [main] DEBUG a00587586.db.Database - DB URL=jdbc:sqlserver://Beangrinder.bcit.ca
+2020-03-15 21:52:28.417 [main] DEBUG a00587586.db.Database - DB USER=javastudent
+2020-03-15 21:52:28.417 [main] DEBUG a00587586.db.Database - DB URL=compjava
+2020-03-15 21:52:28.956 [main] DEBUG a00587586.db.Database - Database connected
+2020-03-15 21:52:29.108 [main] DEBUG a00587586.db.Database - Found the target table named: A00123456_Customers
+2020-03-15 21:52:29.280 [main] INFO  a00587586.CustomerDaoTester - Getting the customer IDs
+2020-03-15 21:52:29.280 [main] DEBUG a00587586.data.customer.CustomerDao - SELECT id FROM A00123456_Customers
+2020-03-15 21:52:29.327 [main] DEBUG a00587586.data.customer.CustomerDao - Loaded 5 customer IDs from the database
+2020-03-15 21:52:29.327 [main] INFO  a00587586.CustomerDaoTester - Customer IDs: [1, 2, 3, 4, 5]
+2020-03-15 21:52:29.327 [main] INFO  a00587586.CustomerDaoTester - 1
+2020-03-15 21:52:29.327 [main] DEBUG a00587586.data.customer.CustomerDao - SELECT * FROM A00123456_Customers WHERE id = 1
+2020-03-15 21:52:29.358 [main] INFO  a00587586.CustomerDaoTester - Customer [id=1, firstName=Fred, lastName=Fish, street=5707 Sidley St, city=Burnaby, postalCode=V5J5E6, phone=6044335004, emailAddress=fredfish@imperial.net, joinedDate=2008-03-22]
+2020-03-15 21:52:29.358 [main] INFO  a00587586.CustomerDaoTester - 2
+2020-03-15 21:52:29.358 [main] DEBUG a00587586.data.customer.CustomerDao - SELECT * FROM A00123456_Customers WHERE id = 2
+2020-03-15 21:52:29.405 [main] INFO  a00587586.CustomerDaoTester - Customer [id=2, firstName=Laurie, lastName=Nash, street=2816 Commercial Dr, city=Vancouver, postalCode=V5N4C6, phone=6048760182, emailAddress=laurieeenash@modern.com, joinedDate=2014-08-28]
+2020-03-15 21:52:29.405 [main] INFO  a00587586.CustomerDaoTester - 3
+2020-03-15 21:52:29.405 [main] DEBUG a00587586.data.customer.CustomerDao - SELECT * FROM A00123456_Customers WHERE id = 3
+2020-03-15 21:52:29.436 [main] INFO  a00587586.CustomerDaoTester - Customer [id=3, firstName=Conrad, lastName=Washington, street=13479 King George Blvd, city=Surrey, postalCode=V3T2T8, phone=6045884988, emailAddress=cwash@daytona.net, joinedDate=2011-07-12]
+2020-03-15 21:52:29.436 [main] INFO  a00587586.CustomerDaoTester - 4
+2020-03-15 21:52:29.436 [main] DEBUG a00587586.data.customer.CustomerDao - SELECT * FROM A00123456_Customers WHERE id = 4
+2020-03-15 21:52:29.483 [main] INFO  a00587586.CustomerDaoTester - Customer [id=4, firstName=Jeanette, lastName=Price, street=21000 Westminster Hwy, city=Richmond, postalCode=V6V2S9, phone=6042762552, emailAddress=priceizrite@pacific.com, joinedDate=2015-10-03]
+2020-03-15 21:52:29.483 [main] INFO  a00587586.CustomerDaoTester - 5
+2020-03-15 21:52:29.483 [main] DEBUG a00587586.data.customer.CustomerDao - SELECT * FROM A00123456_Customers WHERE id = 5
+2020-03-15 21:52:29.514 [main] INFO  a00587586.CustomerDaoTester - Customer [id=5, firstName=Mark, lastName=Chan, street=3766 E 1st Ave, city=Burnaby, postalCode=V5C3V9, phone=6042931022, emailAddress=mchan@hcenter.com, joinedDate=2010-04-01]
+2020-03-15 21:52:29.561 [main] INFO  a00587586.CustomerDaoTester - 5
+2020-03-15 21:52:29.561 [main] INFO  a00587586.Lab7 - End: 2020-03-16T04:52:29.561894400Z
+2020-03-15 21:52:29.561 [main] INFO  a00587586.Lab7 - Duration: 1587 ms
+2020-03-15 21:52:48.895 [main] INFO  a00587586.Lab7 - Start: 2020-03-16T04:52:48.510126700Z
+2020-03-15 21:52:48.895 [main] DEBUG a00587586.db.Database - Loading database properties from db.properties
+2020-03-15 21:52:48.895 [main] DEBUG a00587586.db.Database - com.microsoft.sqlserver.jdbc.SQLServerDriver
+2020-03-15 21:52:48.957 [main] DEBUG a00587586.db.Database - Driver loaded
+2020-03-15 21:52:48.957 [main] DEBUG a00587586.db.Database - DB URL=jdbc:sqlserver://Beangrinder.bcit.ca
+2020-03-15 21:52:48.957 [main] DEBUG a00587586.db.Database - DB USER=javastudent
+2020-03-15 21:52:48.957 [main] DEBUG a00587586.db.Database - DB URL=compjava
+2020-03-15 21:52:49.508 [main] DEBUG a00587586.db.Database - Database connected
+2020-03-15 21:52:49.659 [main] DEBUG a00587586.db.Database - Found the target table named: A00123456_Customers
+2020-03-15 21:52:49.737 [main] INFO  a00587586.CustomerDaoTester - Getting the customer IDs
+2020-03-15 21:52:49.737 [main] DEBUG a00587586.data.customer.CustomerDao - SELECT id FROM A00123456_Customers
+2020-03-15 21:52:49.768 [main] DEBUG a00587586.data.customer.CustomerDao - Loaded 5 customer IDs from the database
+2020-03-15 21:52:49.768 [main] INFO  a00587586.CustomerDaoTester - Customer IDs: [1, 2, 3, 4, 5]
+2020-03-15 21:52:49.768 [main] INFO  a00587586.CustomerDaoTester - 1
+2020-03-15 21:52:49.768 [main] DEBUG a00587586.data.customer.CustomerDao - SELECT * FROM A00123456_Customers WHERE id = 1
+2020-03-15 21:52:49.816 [main] INFO  a00587586.CustomerDaoTester - Customer [id=1, firstName=Fred, lastName=Fish, street=5707 Sidley St, city=Burnaby, postalCode=V5J5E6, phone=6044335004, emailAddress=fredfish@imperial.net, joinedDate=2008-03-22]
+2020-03-15 21:52:49.816 [main] INFO  a00587586.CustomerDaoTester - 2
+2020-03-15 21:52:49.816 [main] DEBUG a00587586.data.customer.CustomerDao - SELECT * FROM A00123456_Customers WHERE id = 2
+2020-03-15 21:52:49.853 [main] INFO  a00587586.CustomerDaoTester - Customer [id=2, firstName=Laurie, lastName=Nash, street=2816 Commercial Dr, city=Vancouver, postalCode=V5N4C6, phone=6048760182, emailAddress=laurieeenash@modern.com, joinedDate=2014-08-28]
+2020-03-15 21:52:49.853 [main] INFO  a00587586.CustomerDaoTester - 3
+2020-03-15 21:52:49.853 [main] DEBUG a00587586.data.customer.CustomerDao - SELECT * FROM A00123456_Customers WHERE id = 3
+2020-03-15 21:52:49.900 [main] INFO  a00587586.CustomerDaoTester - Customer [id=3, firstName=Conrad, lastName=Washington, street=13479 King George Blvd, city=Surrey, postalCode=V3T2T8, phone=6045884988, emailAddress=cwash@daytona.net, joinedDate=2011-07-12]
+2020-03-15 21:52:49.900 [main] INFO  a00587586.CustomerDaoTester - 4
+2020-03-15 21:52:49.900 [main] DEBUG a00587586.data.customer.CustomerDao - SELECT * FROM A00123456_Customers WHERE id = 4
+2020-03-15 21:52:49.931 [main] INFO  a00587586.CustomerDaoTester - Customer [id=4, firstName=Jeanette, lastName=Price, street=21000 Westminster Hwy, city=Richmond, postalCode=V6V2S9, phone=6042762552, emailAddress=priceizrite@pacific.com, joinedDate=2015-10-03]
+2020-03-15 21:52:49.931 [main] INFO  a00587586.CustomerDaoTester - 5
+2020-03-15 21:52:49.931 [main] DEBUG a00587586.data.customer.CustomerDao - SELECT * FROM A00123456_Customers WHERE id = 5
+2020-03-15 21:52:49.978 [main] INFO  a00587586.CustomerDaoTester - Customer [id=5, firstName=Mark, lastName=Chan, street=3766 E 1st Ave, city=Burnaby, postalCode=V5C3V9, phone=6042931022, emailAddress=mchan@hcenter.com, joinedDate=2010-04-01]
+2020-03-15 21:52:49.994 [main] INFO  a00587586.CustomerDaoTester - 5
+2020-03-15 21:52:50.103 [main] INFO  a00587586.Lab7 - End: 2020-03-16T04:52:50.103391200Z
+2020-03-15 21:52:50.103 [main] INFO  a00587586.Lab7 - Duration: 1593 ms
+2020-03-15 21:53:16.884 [main] INFO  a00587586.Lab7 - Start: 2020-03-16T04:53:16.522935800Z
+2020-03-15 21:53:16.900 [main] DEBUG a00587586.db.Database - Loading database properties from db.properties
+2020-03-15 21:53:16.900 [main] DEBUG a00587586.db.Database - com.microsoft.sqlserver.jdbc.SQLServerDriver
+2020-03-15 21:53:16.962 [main] DEBUG a00587586.db.Database - Driver loaded
+2020-03-15 21:53:16.962 [main] DEBUG a00587586.db.Database - DB URL=jdbc:sqlserver://Beangrinder.bcit.ca
+2020-03-15 21:53:16.962 [main] DEBUG a00587586.db.Database - DB USER=javastudent
+2020-03-15 21:53:16.962 [main] DEBUG a00587586.db.Database - DB URL=compjava
+2020-03-15 21:53:17.515 [main] DEBUG a00587586.db.Database - Database connected
+2020-03-15 21:53:17.659 [main] DEBUG a00587586.db.Database - Found the target table named: A00123456_Customers
+2020-03-15 21:53:17.721 [main] INFO  a00587586.CustomerDaoTester - Getting the customer IDs
+2020-03-15 21:53:17.721 [main] DEBUG a00587586.data.customer.CustomerDao - SELECT id FROM A00123456_Customers
+2020-03-15 21:53:17.753 [main] DEBUG a00587586.data.customer.CustomerDao - Loaded 5 customer IDs from the database
+2020-03-15 21:53:17.753 [main] INFO  a00587586.CustomerDaoTester - Customer IDs: [1, 2, 3, 4, 5]
+2020-03-15 21:53:17.753 [main] INFO  a00587586.CustomerDaoTester - 1
+2020-03-15 21:53:17.768 [main] DEBUG a00587586.data.customer.CustomerDao - SELECT * FROM A00123456_Customers WHERE id = 1
+2020-03-15 21:53:17.799 [main] INFO  a00587586.CustomerDaoTester - Customer [id=1, firstName=Fred, lastName=Fish, street=5707 Sidley St, city=Burnaby, postalCode=V5J5E6, phone=6044335004, emailAddress=fredfish@imperial.net, joinedDate=2008-03-22]
+2020-03-15 21:53:17.799 [main] INFO  a00587586.CustomerDaoTester - 2
+2020-03-15 21:53:17.799 [main] DEBUG a00587586.data.customer.CustomerDao - SELECT * FROM A00123456_Customers WHERE id = 2
+2020-03-15 21:53:17.846 [main] INFO  a00587586.CustomerDaoTester - Customer [id=2, firstName=Laurie, lastName=Nash, street=2816 Commercial Dr, city=Vancouver, postalCode=V5N4C6, phone=6048760182, emailAddress=laurieeenash@modern.com, joinedDate=2014-08-28]
+2020-03-15 21:53:17.846 [main] INFO  a00587586.CustomerDaoTester - 3
+2020-03-15 21:53:17.846 [main] DEBUG a00587586.data.customer.CustomerDao - SELECT * FROM A00123456_Customers WHERE id = 3
+2020-03-15 21:53:17.878 [main] INFO  a00587586.CustomerDaoTester - Customer [id=3, firstName=Conrad, lastName=Washington, street=13479 King George Blvd, city=Surrey, postalCode=V3T2T8, phone=6045884988, emailAddress=cwash@daytona.net, joinedDate=2011-07-12]
+2020-03-15 21:53:17.878 [main] INFO  a00587586.CustomerDaoTester - 4
+2020-03-15 21:53:17.878 [main] DEBUG a00587586.data.customer.CustomerDao - SELECT * FROM A00123456_Customers WHERE id = 4
+2020-03-15 21:53:17.928 [main] INFO  a00587586.CustomerDaoTester - Customer [id=4, firstName=Jeanette, lastName=Price, street=21000 Westminster Hwy, city=Richmond, postalCode=V6V2S9, phone=6042762552, emailAddress=priceizrite@pacific.com, joinedDate=2015-10-03]
+2020-03-15 21:53:17.928 [main] INFO  a00587586.CustomerDaoTester - 5
+2020-03-15 21:53:17.929 [main] DEBUG a00587586.data.customer.CustomerDao - SELECT * FROM A00123456_Customers WHERE id = 5
+2020-03-15 21:53:17.967 [main] INFO  a00587586.CustomerDaoTester - Customer [id=5, firstName=Mark, lastName=Chan, street=3766 E 1st Ave, city=Burnaby, postalCode=V5C3V9, phone=6042931022, emailAddress=mchan@hcenter.com, joinedDate=2010-04-01]
+2020-03-15 21:53:17.999 [main] INFO  a00587586.CustomerDaoTester - 5
+2020-03-15 21:53:18.108 [main] INFO  a00587586.Lab7 - End: 2020-03-16T04:53:18.108150Z
+2020-03-15 21:53:18.108 [main] INFO  a00587586.Lab7 - Duration: 1585 ms
+2020-03-15 21:55:56.354 [main] INFO  a00587586.Lab7 - Start: 2020-03-16T04:55:55.977984100Z
+2020-03-15 21:55:56.357 [main] DEBUG a00587586.db.Database - Loading database properties from db.properties
+2020-03-15 21:55:56.359 [main] DEBUG a00587586.db.Database - com.microsoft.sqlserver.jdbc.SQLServerDriver
+2020-03-15 21:55:56.422 [main] DEBUG a00587586.db.Database - Driver loaded
+2020-03-15 21:55:56.422 [main] DEBUG a00587586.db.Database - DB URL=jdbc:sqlserver://Beangrinder.bcit.ca
+2020-03-15 21:55:56.422 [main] DEBUG a00587586.db.Database - DB USER=javastudent
+2020-03-15 21:55:56.422 [main] DEBUG a00587586.db.Database - DB URL=compjava
+2020-03-15 21:55:56.976 [main] DEBUG a00587586.db.Database - Database connected
+2020-03-15 21:55:57.119 [main] DEBUG a00587586.db.Database - Found the target table named: A00123456_Customers
+2020-03-15 21:55:57.182 [main] INFO  a00587586.CustomerDaoTester - Getting the customer IDs
+2020-03-15 21:55:57.182 [main] DEBUG a00587586.data.customer.CustomerDao - SELECT id FROM A00123456_Customers
+2020-03-15 21:55:57.229 [main] DEBUG a00587586.data.customer.CustomerDao - Loaded 5 customer IDs from the database
+2020-03-15 21:55:57.229 [main] INFO  a00587586.CustomerDaoTester - Customer IDs: [1, 2, 3, 4, 5]
+2020-03-15 21:55:57.229 [main] INFO  a00587586.CustomerDaoTester - 1
+2020-03-15 21:55:57.229 [main] DEBUG a00587586.data.customer.CustomerDao - SELECT * FROM A00123456_Customers WHERE id = 1
+2020-03-15 21:55:57.260 [main] INFO  a00587586.CustomerDaoTester - Customer [id=1, firstName=Fred, lastName=Fish, street=5707 Sidley St, city=Burnaby, postalCode=V5J5E6, phone=6044335004, emailAddress=fredfish@imperial.net, joinedDate=2008-03-22]
+2020-03-15 21:55:57.260 [main] INFO  a00587586.CustomerDaoTester - 2
+2020-03-15 21:55:57.260 [main] DEBUG a00587586.data.customer.CustomerDao - SELECT * FROM A00123456_Customers WHERE id = 2
+2020-03-15 21:55:57.307 [main] INFO  a00587586.CustomerDaoTester - Customer [id=2, firstName=Laurie, lastName=Nash, street=2816 Commercial Dr, city=Vancouver, postalCode=V5N4C6, phone=6048760182, emailAddress=laurieeenash@modern.com, joinedDate=2014-08-28]
+2020-03-15 21:55:57.307 [main] INFO  a00587586.CustomerDaoTester - 3
+2020-03-15 21:55:57.307 [main] DEBUG a00587586.data.customer.CustomerDao - SELECT * FROM A00123456_Customers WHERE id = 3
+2020-03-15 21:55:57.338 [main] INFO  a00587586.CustomerDaoTester - Customer [id=3, firstName=Conrad, lastName=Washington, street=13479 King George Blvd, city=Surrey, postalCode=V3T2T8, phone=6045884988, emailAddress=cwash@daytona.net, joinedDate=2011-07-12]
+2020-03-15 21:55:57.338 [main] INFO  a00587586.CustomerDaoTester - 4
+2020-03-15 21:55:57.338 [main] DEBUG a00587586.data.customer.CustomerDao - SELECT * FROM A00123456_Customers WHERE id = 4
+2020-03-15 21:55:57.385 [main] INFO  a00587586.CustomerDaoTester - Customer [id=4, firstName=Jeanette, lastName=Price, street=21000 Westminster Hwy, city=Richmond, postalCode=V6V2S9, phone=6042762552, emailAddress=priceizrite@pacific.com, joinedDate=2015-10-03]
+2020-03-15 21:55:57.385 [main] INFO  a00587586.CustomerDaoTester - 5
+2020-03-15 21:55:57.385 [main] DEBUG a00587586.data.customer.CustomerDao - SELECT * FROM A00123456_Customers WHERE id = 5
+2020-03-15 21:55:57.432 [main] INFO  a00587586.CustomerDaoTester - Customer [id=5, firstName=Mark, lastName=Chan, street=3766 E 1st Ave, city=Burnaby, postalCode=V5C3V9, phone=6042931022, emailAddress=mchan@hcenter.com, joinedDate=2010-04-01]
+2020-03-15 21:55:57.471 [main] INFO  a00587586.CustomerDaoTester - 5
+2020-03-15 21:55:57.573 [main] INFO  a00587586.Lab7 - End: 2020-03-16T04:55:57.573164200Z
+2020-03-15 21:55:57.573 [main] INFO  a00587586.Lab7 - Duration: 1595 ms
+2020-03-15 22:00:32.675 [main] INFO  a00587586.Lab7 - Start: 2020-03-16T05:00:32.283428700Z
+2020-03-15 22:00:32.675 [main] DEBUG a00587586.db.Database - Loading database properties from db.properties
+2020-03-15 22:00:32.675 [main] DEBUG a00587586.db.Database - com.microsoft.sqlserver.jdbc.SQLServerDriver
+2020-03-15 22:00:32.738 [main] DEBUG a00587586.db.Database - Driver loaded
+2020-03-15 22:00:32.738 [main] DEBUG a00587586.db.Database - DB URL=jdbc:sqlserver://Beangrinder.bcit.ca
+2020-03-15 22:00:32.738 [main] DEBUG a00587586.db.Database - DB USER=javastudent
+2020-03-15 22:00:32.738 [main] DEBUG a00587586.db.Database - DB URL=compjava
+2020-03-15 22:00:33.303 [main] DEBUG a00587586.db.Database - Database connected
+2020-03-15 22:00:33.462 [main] DEBUG a00587586.db.Database - Found the target table named: A00123456_Customers
+2020-03-15 22:00:33.541 [main] INFO  a00587586.CustomerDaoTester - Getting the customer IDs
+2020-03-15 22:00:33.541 [main] DEBUG a00587586.data.customer.CustomerDao - SELECT id FROM A00123456_Customers
+2020-03-15 22:00:33.586 [main] DEBUG a00587586.data.customer.CustomerDao - Loaded 5 customer IDs from the database
+2020-03-15 22:00:33.586 [main] INFO  a00587586.CustomerDaoTester - Customer IDs: [1, 2, 3, 4, 5]
+2020-03-15 22:00:33.586 [main] INFO  a00587586.CustomerDaoTester - 1
+2020-03-15 22:00:33.586 [main] DEBUG a00587586.data.customer.CustomerDao - SELECT * FROM A00123456_Customers WHERE id = 1
+2020-03-15 22:00:33.616 [main] INFO  a00587586.CustomerDaoTester - Customer [id=1, firstName=Fred, lastName=Fish, street=5707 Sidley St, city=Burnaby, postalCode=V5J5E6, phone=6044335004, emailAddress=fredfish@imperial.net, joinedDate=2008-03-22]
+2020-03-15 22:00:33.616 [main] INFO  a00587586.CustomerDaoTester - 2
+2020-03-15 22:00:33.616 [main] DEBUG a00587586.data.customer.CustomerDao - SELECT * FROM A00123456_Customers WHERE id = 2
+2020-03-15 22:00:33.663 [main] INFO  a00587586.CustomerDaoTester - Customer [id=2, firstName=Laurie, lastName=Nash, street=2816 Commercial Dr, city=Vancouver, postalCode=V5N4C6, phone=6048760182, emailAddress=laurieeenash@modern.com, joinedDate=2014-08-28]
+2020-03-15 22:00:33.663 [main] INFO  a00587586.CustomerDaoTester - 3
+2020-03-15 22:00:33.663 [main] DEBUG a00587586.data.customer.CustomerDao - SELECT * FROM A00123456_Customers WHERE id = 3
+2020-03-15 22:00:33.695 [main] INFO  a00587586.CustomerDaoTester - Customer [id=3, firstName=Conrad, lastName=Washington, street=13479 King George Blvd, city=Surrey, postalCode=V3T2T8, phone=6045884988, emailAddress=cwash@daytona.net, joinedDate=2011-07-12]
+2020-03-15 22:00:33.695 [main] INFO  a00587586.CustomerDaoTester - 4
+2020-03-15 22:00:33.695 [main] DEBUG a00587586.data.customer.CustomerDao - SELECT * FROM A00123456_Customers WHERE id = 4
+2020-03-15 22:00:33.741 [main] INFO  a00587586.CustomerDaoTester - Customer [id=4, firstName=Jeanette, lastName=Price, street=21000 Westminster Hwy, city=Richmond, postalCode=V6V2S9, phone=6042762552, emailAddress=priceizrite@pacific.com, joinedDate=2015-10-03]
+2020-03-15 22:00:33.741 [main] INFO  a00587586.CustomerDaoTester - 5
+2020-03-15 22:00:33.741 [main] DEBUG a00587586.data.customer.CustomerDao - SELECT * FROM A00123456_Customers WHERE id = 5
+2020-03-15 22:00:33.773 [main] INFO  a00587586.CustomerDaoTester - Customer [id=5, firstName=Mark, lastName=Chan, street=3766 E 1st Ave, city=Burnaby, postalCode=V5C3V9, phone=6042931022, emailAddress=mchan@hcenter.com, joinedDate=2010-04-01]
+2020-03-15 22:00:33.820 [main] INFO  a00587586.CustomerDaoTester - 5
+2020-03-15 22:00:33.929 [main] INFO  a00587586.Lab7 - End: 2020-03-16T05:00:33.929097600Z
+2020-03-15 22:00:33.929 [main] INFO  a00587586.Lab7 - Duration: 1645 ms
+2020-03-15 22:06:11.661 [main] INFO  a00587586.Lab7 - Start: 2020-03-16T05:06:11.282984100Z
+2020-03-15 22:06:11.668 [main] DEBUG a00587586.db.Database - Loading database properties from db.properties
+2020-03-15 22:06:11.668 [main] DEBUG a00587586.db.Database - com.microsoft.sqlserver.jdbc.SQLServerDriver
+2020-03-15 22:06:11.738 [main] DEBUG a00587586.db.Database - Driver loaded
+2020-03-15 22:06:11.738 [main] DEBUG a00587586.db.Database - DB URL=jdbc:sqlserver://Beangrinder.bcit.ca
+2020-03-15 22:06:11.738 [main] DEBUG a00587586.db.Database - DB USER=javastudent
+2020-03-15 22:06:11.738 [main] DEBUG a00587586.db.Database - DB URL=compjava
+2020-03-15 22:06:12.286 [main] DEBUG a00587586.db.Database - Database connected
+2020-03-15 22:06:12.416 [main] DEBUG a00587586.db.Database - Found the target table named: A00123456_Customers
+2020-03-15 22:06:12.478 [main] INFO  a00587586.CustomerDaoTester - Getting the customer IDs
+2020-03-15 22:06:12.478 [main] DEBUG a00587586.data.customer.CustomerDao - SELECT id FROM A00123456_Customers
+2020-03-15 22:06:12.525 [main] DEBUG a00587586.data.customer.CustomerDao - Loaded 5 customer IDs from the database
+2020-03-15 22:06:12.525 [main] INFO  a00587586.CustomerDaoTester - Customer IDs: [1, 2, 3, 4, 5]
+2020-03-15 22:06:12.525 [main] INFO  a00587586.CustomerDaoTester - 1
+2020-03-15 22:06:12.525 [main] DEBUG a00587586.data.customer.CustomerDao - SELECT * FROM A00123456_Customers WHERE id = 1
+2020-03-15 22:06:12.572 [main] INFO  a00587586.CustomerDaoTester - Customer [id=1, firstName=Fred, lastName=Fish, street=5707 Sidley St, city=Burnaby, postalCode=V5J5E6, phone=6044335004, emailAddress=fredfish@imperial.net, joinedDate=2008-03-22]
+2020-03-15 22:06:12.572 [main] INFO  a00587586.CustomerDaoTester - 2
+2020-03-15 22:06:12.572 [main] DEBUG a00587586.data.customer.CustomerDao - SELECT * FROM A00123456_Customers WHERE id = 2
+2020-03-15 22:06:12.603 [main] INFO  a00587586.CustomerDaoTester - Customer [id=2, firstName=Laurie, lastName=Nash, street=2816 Commercial Dr, city=Vancouver, postalCode=V5N4C6, phone=6048760182, emailAddress=laurieeenash@modern.com, joinedDate=2014-08-28]
+2020-03-15 22:06:12.603 [main] INFO  a00587586.CustomerDaoTester - 3
+2020-03-15 22:06:12.603 [main] DEBUG a00587586.data.customer.CustomerDao - SELECT * FROM A00123456_Customers WHERE id = 3
+2020-03-15 22:06:12.635 [main] INFO  a00587586.CustomerDaoTester - Customer [id=3, firstName=Conrad, lastName=Washington, street=13479 King George Blvd, city=Surrey, postalCode=V3T2T8, phone=6045884988, emailAddress=cwash@daytona.net, joinedDate=2011-07-12]
+2020-03-15 22:06:12.635 [main] INFO  a00587586.CustomerDaoTester - 4
+2020-03-15 22:06:12.635 [main] DEBUG a00587586.data.customer.CustomerDao - SELECT * FROM A00123456_Customers WHERE id = 4
+2020-03-15 22:06:12.681 [main] INFO  a00587586.CustomerDaoTester - Customer [id=4, firstName=Jeanette, lastName=Price, street=21000 Westminster Hwy, city=Richmond, postalCode=V6V2S9, phone=6042762552, emailAddress=priceizrite@pacific.com, joinedDate=2015-10-03]
+2020-03-15 22:06:12.681 [main] INFO  a00587586.CustomerDaoTester - 5
+2020-03-15 22:06:12.681 [main] DEBUG a00587586.data.customer.CustomerDao - SELECT * FROM A00123456_Customers WHERE id = 5
+2020-03-15 22:06:12.712 [main] INFO  a00587586.CustomerDaoTester - Customer [id=5, firstName=Mark, lastName=Chan, street=3766 E 1st Ave, city=Burnaby, postalCode=V5C3V9, phone=6042931022, emailAddress=mchan@hcenter.com, joinedDate=2010-04-01]
+2020-03-15 22:06:12.744 [main] INFO  a00587586.CustomerDaoTester - 5
+2020-03-15 22:06:12.852 [main] INFO  a00587586.Lab7 - End: 2020-03-16T05:06:12.852485500Z
+2020-03-15 22:06:12.852 [main] INFO  a00587586.Lab7 - Duration: 1569 ms
+2020-03-15 22:15:19.795 [main] INFO  a00587586.Lab7 - Start: 2020-03-16T05:15:19.430282Z
+2020-03-15 22:15:19.795 [main] DEBUG a00587586.db.Database - Loading database properties from db.properties
+2020-03-15 22:15:19.795 [main] DEBUG a00587586.db.Database - com.microsoft.sqlserver.jdbc.SQLServerDriver
+2020-03-15 22:15:19.858 [main] DEBUG a00587586.db.Database - Driver loaded
+2020-03-15 22:15:19.858 [main] DEBUG a00587586.db.Database - DB URL=jdbc:sqlserver://Beangrinder.bcit.ca
+2020-03-15 22:15:19.858 [main] DEBUG a00587586.db.Database - DB USER=javastudent
+2020-03-15 22:15:19.858 [main] DEBUG a00587586.db.Database - DB URL=compjava
+2020-03-15 22:15:20.409 [main] DEBUG a00587586.db.Database - Database connected
+2020-03-15 22:15:20.561 [main] DEBUG a00587586.db.Database - Found the target table named: A00123456_Customers
+2020-03-15 22:15:20.624 [main] INFO  a00587586.CustomerDaoTester - Getting the customer IDs
+2020-03-15 22:15:20.624 [main] DEBUG a00587586.data.customer.CustomerDao - SELECT id FROM A00123456_Customers
+2020-03-15 22:15:20.655 [main] DEBUG a00587586.data.customer.CustomerDao - Loaded 5 customer IDs from the database
+2020-03-15 22:15:20.655 [main] INFO  a00587586.CustomerDaoTester - Customer IDs: [1, 2, 3, 4, 5]
+2020-03-15 22:15:20.655 [main] INFO  a00587586.CustomerDaoTester - 1
+2020-03-15 22:15:20.655 [main] DEBUG a00587586.data.customer.CustomerDao - SELECT * FROM A00123456_Customers WHERE id = 1
+2020-03-15 22:15:20.702 [main] INFO  a00587586.CustomerDaoTester - Customer [id=1, firstName=Fred, lastName=Fish, street=5707 Sidley St, city=Burnaby, postalCode=V5J5E6, phone=6044335004, emailAddress=fredfish@imperial.net, joinedDate=2008-03-22]
+2020-03-15 22:15:20.702 [main] INFO  a00587586.CustomerDaoTester - 2
+2020-03-15 22:15:20.702 [main] DEBUG a00587586.data.customer.CustomerDao - SELECT * FROM A00123456_Customers WHERE id = 2
+2020-03-15 22:15:20.764 [main] INFO  a00587586.CustomerDaoTester - Customer [id=2, firstName=Laurie, lastName=Nash, street=2816 Commercial Dr, city=Vancouver, postalCode=V5N4C6, phone=6048760182, emailAddress=laurieeenash@modern.com, joinedDate=2014-08-28]
+2020-03-15 22:15:20.764 [main] INFO  a00587586.CustomerDaoTester - 3
+2020-03-15 22:15:20.764 [main] DEBUG a00587586.data.customer.CustomerDao - SELECT * FROM A00123456_Customers WHERE id = 3
+2020-03-15 22:15:20.814 [main] INFO  a00587586.CustomerDaoTester - Customer [id=3, firstName=Conrad, lastName=Washington, street=13479 King George Blvd, city=Surrey, postalCode=V3T2T8, phone=6045884988, emailAddress=cwash@daytona.net, joinedDate=2011-07-12]
+2020-03-15 22:15:20.814 [main] INFO  a00587586.CustomerDaoTester - 4
+2020-03-15 22:15:20.814 [main] DEBUG a00587586.data.customer.CustomerDao - SELECT * FROM A00123456_Customers WHERE id = 4
+2020-03-15 22:15:20.848 [main] INFO  a00587586.CustomerDaoTester - Customer [id=4, firstName=Jeanette, lastName=Price, street=21000 Westminster Hwy, city=Richmond, postalCode=V6V2S9, phone=6042762552, emailAddress=priceizrite@pacific.com, joinedDate=2015-10-03]
+2020-03-15 22:15:20.848 [main] INFO  a00587586.CustomerDaoTester - 5
+2020-03-15 22:15:20.848 [main] DEBUG a00587586.data.customer.CustomerDao - SELECT * FROM A00123456_Customers WHERE id = 5
+2020-03-15 22:15:20.895 [main] INFO  a00587586.CustomerDaoTester - Customer [id=5, firstName=Mark, lastName=Chan, street=3766 E 1st Ave, city=Burnaby, postalCode=V5C3V9, phone=6042931022, emailAddress=mchan@hcenter.com, joinedDate=2010-04-01]
+2020-03-15 22:15:20.926 [main] INFO  a00587586.CustomerDaoTester - 5
+2020-03-15 22:15:21.035 [main] INFO  a00587586.Lab7 - End: 2020-03-16T05:15:21.035982500Z
+2020-03-15 22:15:21.035 [main] INFO  a00587586.Lab7 - Duration: 1605 ms
+2020-03-15 23:14:13.626 [main] INFO  a00587586.Lab7 - Start: 2020-03-16T06:14:13.264935400Z
+2020-03-15 23:14:13.626 [main] DEBUG a00587586.db.Database - Loading database properties from db.properties
+2020-03-15 23:14:13.626 [main] DEBUG a00587586.db.Database - com.microsoft.sqlserver.jdbc.SQLServerDriver
+2020-03-15 23:14:13.705 [main] DEBUG a00587586.db.Database - Driver loaded
+2020-03-15 23:14:13.705 [main] DEBUG a00587586.db.Database - DB URL=jdbc:sqlserver://Beangrinder.bcit.ca
+2020-03-15 23:14:13.705 [main] DEBUG a00587586.db.Database - DB USER=javastudent
+2020-03-15 23:14:13.705 [main] DEBUG a00587586.db.Database - DB URL=compjava
+2020-03-15 23:14:14.260 [main] DEBUG a00587586.db.Database - Database connected
+2020-03-15 23:14:14.450 [main] DEBUG a00587586.db.Database - Found the target table named: A00123456_Customers
+2020-03-15 23:14:14.528 [main] DEBUG a00587586.data.customer.CustomerDao - SELECT * FROM A00123456_Customers WHERE id = 0
+2020-03-15 23:14:14.575 [main] DEBUG a00587586.data.customer.CustomerDao - SELECT * FROM A00123456_Customers WHERE id = 1
+2020-03-15 23:14:14.637 [main] DEBUG a00587586.data.customer.CustomerDao - SELECT * FROM A00123456_Customers WHERE id = 2
+2020-03-15 23:14:14.678 [main] DEBUG a00587586.data.customer.CustomerDao - SELECT * FROM A00123456_Customers WHERE id = 3
+2020-03-15 23:14:14.718 [main] DEBUG a00587586.data.customer.CustomerDao - SELECT * FROM A00123456_Customers WHERE id = 4
+2020-03-15 23:14:14.761 [main] DEBUG a00587586.data.customer.CustomerDao - SELECT * FROM A00123456_Customers WHERE id = 5
+2020-03-15 23:14:14.913 [main] INFO  a00587586.CustomerDaoTester - Getting the customer IDs
+2020-03-15 23:14:14.913 [main] DEBUG a00587586.data.customer.CustomerDao - SELECT id FROM A00123456_Customers
+2020-03-15 23:14:14.954 [main] DEBUG a00587586.data.customer.CustomerDao - Loaded 5 customer IDs from the database
+2020-03-15 23:14:14.954 [main] INFO  a00587586.CustomerDaoTester - Customer IDs: [1, 2, 3, 4, 5]
+2020-03-15 23:14:14.955 [main] INFO  a00587586.CustomerDaoTester - 1
+2020-03-15 23:14:14.955 [main] DEBUG a00587586.data.customer.CustomerDao - SELECT * FROM A00123456_Customers WHERE id = 1
+2020-03-15 23:14:14.995 [main] INFO  a00587586.CustomerDaoTester - Customer [id=1, firstName=Fred, lastName=Fish, street=5707 Sidley St, city=Burnaby, postalCode=V5J5E6, phone=6044335004, emailAddress=fredfish@imperial.net, joinedDate=2008-03-22]
+2020-03-15 23:14:14.996 [main] INFO  a00587586.CustomerDaoTester - 2
+2020-03-15 23:14:14.996 [main] DEBUG a00587586.data.customer.CustomerDao - SELECT * FROM A00123456_Customers WHERE id = 2
+2020-03-15 23:14:15.035 [main] INFO  a00587586.CustomerDaoTester - Customer [id=2, firstName=Laurie, lastName=Nash, street=2816 Commercial Dr, city=Vancouver, postalCode=V5N4C6, phone=6048760182, emailAddress=laurieeenash@modern.com, joinedDate=2014-08-28]
+2020-03-15 23:14:15.036 [main] INFO  a00587586.CustomerDaoTester - 3
+2020-03-15 23:14:15.036 [main] DEBUG a00587586.data.customer.CustomerDao - SELECT * FROM A00123456_Customers WHERE id = 3
+2020-03-15 23:14:15.076 [main] INFO  a00587586.CustomerDaoTester - Customer [id=3, firstName=Conrad, lastName=Washington, street=13479 King George Blvd, city=Surrey, postalCode=V3T2T8, phone=6045884988, emailAddress=cwash@daytona.net, joinedDate=2011-07-12]
+2020-03-15 23:14:15.077 [main] INFO  a00587586.CustomerDaoTester - 4
+2020-03-15 23:14:15.077 [main] DEBUG a00587586.data.customer.CustomerDao - SELECT * FROM A00123456_Customers WHERE id = 4
+2020-03-15 23:14:15.118 [main] INFO  a00587586.CustomerDaoTester - Customer [id=4, firstName=Jeanette, lastName=Price, street=21000 Westminster Hwy, city=Richmond, postalCode=V6V2S9, phone=6042762552, emailAddress=priceizrite@pacific.com, joinedDate=2015-10-03]
+2020-03-15 23:14:15.118 [main] INFO  a00587586.CustomerDaoTester - 5
+2020-03-15 23:14:15.118 [main] DEBUG a00587586.data.customer.CustomerDao - SELECT * FROM A00123456_Customers WHERE id = 5
+2020-03-15 23:14:15.159 [main] INFO  a00587586.CustomerDaoTester - Customer [id=5, firstName=Mark, lastName=Chan, street=3766 E 1st Ave, city=Burnaby, postalCode=V5C3V9, phone=6042931022, emailAddress=mchan@hcenter.com, joinedDate=2010-04-01]
+2020-03-15 23:14:15.199 [main] INFO  a00587586.CustomerDaoTester - 5
+2020-03-15 23:14:15.199 [main] INFO  a00587586.Lab7 - End: 2020-03-16T06:14:15.199090100Z
+2020-03-15 23:14:15.200 [main] INFO  a00587586.Lab7 - Duration: 1934 ms
+2020-03-15 23:34:26.055 [main] INFO  a00587586.Lab7 - Start: 2020-03-16T06:34:25.681491700Z
+2020-03-15 23:34:26.055 [main] DEBUG a00587586.db.Database - Loading database properties from db.properties
+2020-03-15 23:34:26.055 [main] DEBUG a00587586.db.Database - com.microsoft.sqlserver.jdbc.SQLServerDriver
+2020-03-15 23:34:26.117 [main] DEBUG a00587586.db.Database - Driver loaded
+2020-03-15 23:34:26.117 [main] DEBUG a00587586.db.Database - DB URL=jdbc:sqlserver://Beangrinder.bcit.ca
+2020-03-15 23:34:26.117 [main] DEBUG a00587586.db.Database - DB USER=javastudent
+2020-03-15 23:34:26.117 [main] DEBUG a00587586.db.Database - DB URL=compjava
+2020-03-15 23:34:26.680 [main] DEBUG a00587586.db.Database - Database connected
+2020-03-15 23:34:26.834 [main] DEBUG a00587586.db.Database - Found the target table named: A00123456_Customers
+2020-03-15 23:34:26.897 [main] DEBUG a00587586.data.customer.CustomerDao - SELECT * FROM A00123456_Customers WHERE id = 0
+2020-03-15 23:34:26.937 [main] DEBUG a00587586.data.customer.CustomerDao - SELECT * FROM A00123456_Customers WHERE id = 1
+2020-03-15 23:34:26.979 [main] DEBUG a00587586.data.customer.CustomerDao - SELECT * FROM A00123456_Customers WHERE id = 2
+2020-03-15 23:34:27.018 [main] DEBUG a00587586.data.customer.CustomerDao - SELECT * FROM A00123456_Customers WHERE id = 3
+2020-03-15 23:34:27.058 [main] DEBUG a00587586.data.customer.CustomerDao - SELECT * FROM A00123456_Customers WHERE id = 4
+2020-03-15 23:34:27.098 [main] DEBUG a00587586.data.customer.CustomerDao - SELECT * FROM A00123456_Customers WHERE id = 5
+2020-03-15 23:34:27.248 [main] INFO  a00587586.CustomerDaoTester - Getting the customer IDs
+2020-03-15 23:34:27.248 [main] DEBUG a00587586.data.customer.CustomerDao - SELECT id FROM A00123456_Customers
+2020-03-15 23:34:27.287 [main] DEBUG a00587586.data.customer.CustomerDao - Loaded 5 customer IDs from the database
+2020-03-15 23:34:27.287 [main] INFO  a00587586.CustomerDaoTester - Customer IDs: [1, 2, 3, 4, 5]
+2020-03-15 23:34:27.288 [main] INFO  a00587586.CustomerDaoTester - 1
+2020-03-15 23:34:27.288 [main] DEBUG a00587586.data.customer.CustomerDao - SELECT * FROM A00123456_Customers WHERE id = 1
+2020-03-15 23:34:27.327 [main] INFO  a00587586.CustomerDaoTester - Customer [id=1, firstName=Fred, lastName=Fish, street=5707 Sidley St, city=Burnaby, postalCode=V5J5E6, phone=6044335004, emailAddress=fredfish@imperial.net, joinedDate=2008-03-22]
+2020-03-15 23:34:27.327 [main] INFO  a00587586.CustomerDaoTester - 2
+2020-03-15 23:34:27.328 [main] DEBUG a00587586.data.customer.CustomerDao - SELECT * FROM A00123456_Customers WHERE id = 2
+2020-03-15 23:34:27.367 [main] INFO  a00587586.CustomerDaoTester - Customer [id=2, firstName=Laurie, lastName=Nash, street=2816 Commercial Dr, city=Vancouver, postalCode=V5N4C6, phone=6048760182, emailAddress=laurieeenash@modern.com, joinedDate=2014-08-28]
+2020-03-15 23:34:27.367 [main] INFO  a00587586.CustomerDaoTester - 3
+2020-03-15 23:34:27.367 [main] DEBUG a00587586.data.customer.CustomerDao - SELECT * FROM A00123456_Customers WHERE id = 3
+2020-03-15 23:34:27.406 [main] INFO  a00587586.CustomerDaoTester - Customer [id=3, firstName=Conrad, lastName=Washington, street=13479 King George Blvd, city=Surrey, postalCode=V3T2T8, phone=6045884988, emailAddress=cwash@daytona.net, joinedDate=2011-07-12]
+2020-03-15 23:34:27.407 [main] INFO  a00587586.CustomerDaoTester - 4
+2020-03-15 23:34:27.407 [main] DEBUG a00587586.data.customer.CustomerDao - SELECT * FROM A00123456_Customers WHERE id = 4
+2020-03-15 23:34:27.447 [main] INFO  a00587586.CustomerDaoTester - Customer [id=4, firstName=Jeanette, lastName=Price, street=21000 Westminster Hwy, city=Richmond, postalCode=V6V2S9, phone=6042762552, emailAddress=priceizrite@pacific.com, joinedDate=2015-10-03]
+2020-03-15 23:34:27.447 [main] INFO  a00587586.CustomerDaoTester - 5
+2020-03-15 23:34:27.447 [main] DEBUG a00587586.data.customer.CustomerDao - SELECT * FROM A00123456_Customers WHERE id = 5
+2020-03-15 23:34:27.503 [main] INFO  a00587586.CustomerDaoTester - Customer [id=5, firstName=Mark, lastName=Chan, street=3766 E 1st Ave, city=Burnaby, postalCode=V5C3V9, phone=6042931022, emailAddress=mchan@hcenter.com, joinedDate=2010-04-01]
+2020-03-15 23:34:27.542 [main] INFO  a00587586.CustomerDaoTester - 5
+2020-03-15 23:34:27.543 [main] INFO  a00587586.Lab7 - End: 2020-03-16T06:34:27.542526100Z
+2020-03-15 23:34:27.543 [main] INFO  a00587586.Lab7 - Duration: 1861 ms
+2020-03-15 23:38:30.862 [main] INFO  a00587586.Lab7 - Start: 2020-03-16T06:38:30.490493700Z
+2020-03-15 23:38:30.862 [main] DEBUG a00587586.db.Database - Loading database properties from db.properties
+2020-03-15 23:38:30.862 [main] DEBUG a00587586.db.Database - com.microsoft.sqlserver.jdbc.SQLServerDriver
+2020-03-15 23:38:30.924 [main] DEBUG a00587586.db.Database - Driver loaded
+2020-03-15 23:38:30.924 [main] DEBUG a00587586.db.Database - DB URL=jdbc:sqlserver://Beangrinder.bcit.ca
+2020-03-15 23:38:30.924 [main] DEBUG a00587586.db.Database - DB USER=javastudent
+2020-03-15 23:38:30.924 [main] DEBUG a00587586.db.Database - DB URL=compjava
+2020-03-15 23:38:31.483 [main] DEBUG a00587586.db.Database - Database connected
+2020-03-15 23:38:31.647 [main] DEBUG a00587586.db.Database - Found the target table named: A00123456_Customers
+2020-03-15 23:38:31.710 [main] DEBUG a00587586.data.customer.CustomerDao - SELECT * FROM A00123456_Customers WHERE id = 0
+2020-03-15 23:38:31.743 [main] DEBUG a00587586.data.customer.CustomerDao - SELECT * FROM A00123456_Customers WHERE id = 1
+2020-03-15 23:38:31.790 [main] DEBUG a00587586.data.customer.CustomerDao - SELECT * FROM A00123456_Customers WHERE id = 2
+2020-03-15 23:38:31.822 [main] DEBUG a00587586.data.customer.CustomerDao - SELECT * FROM A00123456_Customers WHERE id = 3
+2020-03-15 23:38:31.868 [main] DEBUG a00587586.data.customer.CustomerDao - SELECT * FROM A00123456_Customers WHERE id = 4
+2020-03-15 23:38:31.900 [main] DEBUG a00587586.data.customer.CustomerDao - SELECT * FROM A00123456_Customers WHERE id = 5
+2020-03-15 23:38:32.056 [main] INFO  a00587586.CustomerDaoTester - Getting the customer IDs
+2020-03-15 23:38:32.056 [main] DEBUG a00587586.data.customer.CustomerDao - SELECT id FROM A00123456_Customers
+2020-03-15 23:38:32.087 [main] DEBUG a00587586.data.customer.CustomerDao - Loaded 5 customer IDs from the database
+2020-03-15 23:38:32.087 [main] INFO  a00587586.CustomerDaoTester - Customer IDs: [1, 2, 3, 4, 5]
+2020-03-15 23:38:32.087 [main] INFO  a00587586.CustomerDaoTester - 1
+2020-03-15 23:38:32.087 [main] DEBUG a00587586.data.customer.CustomerDao - SELECT * FROM A00123456_Customers WHERE id = 1
+2020-03-15 23:38:32.134 [main] INFO  a00587586.CustomerDaoTester - Customer [id=1, firstName=Fred, lastName=Fish, street=5707 Sidley St, city=Burnaby, postalCode=V5J5E6, phone=6044335004, emailAddress=fredfish@imperial.net, joinedDate=2008-03-22]
+2020-03-15 23:38:32.134 [main] INFO  a00587586.CustomerDaoTester - 2
+2020-03-15 23:38:32.134 [main] DEBUG a00587586.data.customer.CustomerDao - SELECT * FROM A00123456_Customers WHERE id = 2
+2020-03-15 23:38:32.165 [main] INFO  a00587586.CustomerDaoTester - Customer [id=2, firstName=Laurie, lastName=Nash, street=2816 Commercial Dr, city=Vancouver, postalCode=V5N4C6, phone=6048760182, emailAddress=laurieeenash@modern.com, joinedDate=2014-08-28]
+2020-03-15 23:38:32.165 [main] INFO  a00587586.CustomerDaoTester - 3
+2020-03-15 23:38:32.165 [main] DEBUG a00587586.data.customer.CustomerDao - SELECT * FROM A00123456_Customers WHERE id = 3
+2020-03-15 23:38:32.218 [main] INFO  a00587586.CustomerDaoTester - Customer [id=3, firstName=Conrad, lastName=Washington, street=13479 King George Blvd, city=Surrey, postalCode=V3T2T8, phone=6045884988, emailAddress=cwash@daytona.net, joinedDate=2011-07-12]
+2020-03-15 23:38:32.218 [main] INFO  a00587586.CustomerDaoTester - 4
+2020-03-15 23:38:32.218 [main] DEBUG a00587586.data.customer.CustomerDao - SELECT * FROM A00123456_Customers WHERE id = 4
+2020-03-15 23:38:32.245 [main] INFO  a00587586.CustomerDaoTester - Customer [id=4, firstName=Jeanette, lastName=Price, street=21000 Westminster Hwy, city=Richmond, postalCode=V6V2S9, phone=6042762552, emailAddress=priceizrite@pacific.com, joinedDate=2015-10-03]
+2020-03-15 23:38:32.245 [main] INFO  a00587586.CustomerDaoTester - 5
+2020-03-15 23:38:32.245 [main] DEBUG a00587586.data.customer.CustomerDao - SELECT * FROM A00123456_Customers WHERE id = 5
+2020-03-15 23:38:32.292 [main] INFO  a00587586.CustomerDaoTester - Customer [id=5, firstName=Mark, lastName=Chan, street=3766 E 1st Ave, city=Burnaby, postalCode=V5C3V9, phone=6042931022, emailAddress=mchan@hcenter.com, joinedDate=2010-04-01]
+2020-03-15 23:38:32.323 [main] INFO  a00587586.CustomerDaoTester - 5
+2020-03-15 23:38:32.323 [main] INFO  a00587586.Lab7 - End: 2020-03-16T06:38:32.323770400Z
+2020-03-15 23:38:32.323 [main] INFO  a00587586.Lab7 - Duration: 1833 ms
+2020-03-15 23:39:11.942 [main] INFO  a00587586.Lab7 - Start: 2020-03-16T06:39:11.571402500Z
+2020-03-15 23:39:11.942 [main] DEBUG a00587586.db.Database - Loading database properties from db.properties
+2020-03-15 23:39:11.942 [main] DEBUG a00587586.db.Database - com.microsoft.sqlserver.jdbc.SQLServerDriver
+2020-03-15 23:39:12.011 [main] DEBUG a00587586.db.Database - Driver loaded
+2020-03-15 23:39:12.011 [main] DEBUG a00587586.db.Database - DB URL=jdbc:sqlserver://Beangrinder.bcit.ca
+2020-03-15 23:39:12.011 [main] DEBUG a00587586.db.Database - DB USER=javastudent
+2020-03-15 23:39:12.011 [main] DEBUG a00587586.db.Database - DB URL=compjava
+2020-03-15 23:39:12.589 [main] DEBUG a00587586.db.Database - Database connected
+2020-03-15 23:39:12.744 [main] DEBUG a00587586.db.Database - Found the target table named: A00123456_Customers
+2020-03-15 23:39:12.807 [main] DEBUG a00587586.data.customer.CustomerDao - SELECT * FROM A00123456_Customers WHERE id = 0
+2020-03-15 23:39:12.838 [main] DEBUG a00587586.data.customer.CustomerDao - SELECT * FROM A00123456_Customers WHERE id = 1
+2020-03-15 23:39:12.885 [main] DEBUG a00587586.data.customer.CustomerDao - SELECT * FROM A00123456_Customers WHERE id = 2
+2020-03-15 23:39:12.932 [main] DEBUG a00587586.data.customer.CustomerDao - SELECT * FROM A00123456_Customers WHERE id = 3
+2020-03-15 23:39:12.963 [main] DEBUG a00587586.data.customer.CustomerDao - SELECT * FROM A00123456_Customers WHERE id = 4
+2020-03-15 23:39:13.010 [main] DEBUG a00587586.data.customer.CustomerDao - SELECT * FROM A00123456_Customers WHERE id = 5
+2020-03-15 23:39:13.155 [main] INFO  a00587586.CustomerDaoTester - Getting the customer IDs
+2020-03-15 23:39:13.155 [main] DEBUG a00587586.data.customer.CustomerDao - SELECT id FROM A00123456_Customers
+2020-03-15 23:39:13.202 [main] DEBUG a00587586.data.customer.CustomerDao - Loaded 5 customer IDs from the database
+2020-03-15 23:39:13.202 [main] INFO  a00587586.CustomerDaoTester - Customer IDs: [1, 2, 3, 4, 5]
+2020-03-15 23:39:13.202 [main] INFO  a00587586.CustomerDaoTester - 1
+2020-03-15 23:39:13.202 [main] DEBUG a00587586.data.customer.CustomerDao - SELECT * FROM A00123456_Customers WHERE id = 1
+2020-03-15 23:39:13.233 [main] INFO  a00587586.CustomerDaoTester - Customer [id=1, firstName=Fred, lastName=Fish, street=5707 Sidley St, city=Burnaby, postalCode=V5J5E6, phone=6044335004, emailAddress=fredfish@imperial.net, joinedDate=2008-03-22]
+2020-03-15 23:39:13.233 [main] INFO  a00587586.CustomerDaoTester - 2
+2020-03-15 23:39:13.233 [main] DEBUG a00587586.data.customer.CustomerDao - SELECT * FROM A00123456_Customers WHERE id = 2
+2020-03-15 23:39:13.280 [main] INFO  a00587586.CustomerDaoTester - Customer [id=2, firstName=Laurie, lastName=Nash, street=2816 Commercial Dr, city=Vancouver, postalCode=V5N4C6, phone=6048760182, emailAddress=laurieeenash@modern.com, joinedDate=2014-08-28]
+2020-03-15 23:39:13.280 [main] INFO  a00587586.CustomerDaoTester - 3
+2020-03-15 23:39:13.280 [main] DEBUG a00587586.data.customer.CustomerDao - SELECT * FROM A00123456_Customers WHERE id = 3
+2020-03-15 23:39:13.327 [main] INFO  a00587586.CustomerDaoTester - Customer [id=3, firstName=Conrad, lastName=Washington, street=13479 King George Blvd, city=Surrey, postalCode=V3T2T8, phone=6045884988, emailAddress=cwash@daytona.net, joinedDate=2011-07-12]
+2020-03-15 23:39:13.327 [main] INFO  a00587586.CustomerDaoTester - 4
+2020-03-15 23:39:13.327 [main] DEBUG a00587586.data.customer.CustomerDao - SELECT * FROM A00123456_Customers WHERE id = 4
+2020-03-15 23:39:13.359 [main] INFO  a00587586.CustomerDaoTester - Customer [id=4, firstName=Jeanette, lastName=Price, street=21000 Westminster Hwy, city=Richmond, postalCode=V6V2S9, phone=6042762552, emailAddress=priceizrite@pacific.com, joinedDate=2015-10-03]
+2020-03-15 23:39:13.359 [main] INFO  a00587586.CustomerDaoTester - 5
+2020-03-15 23:39:13.359 [main] DEBUG a00587586.data.customer.CustomerDao - SELECT * FROM A00123456_Customers WHERE id = 5
+2020-03-15 23:39:13.406 [main] INFO  a00587586.CustomerDaoTester - Customer [id=5, firstName=Mark, lastName=Chan, street=3766 E 1st Ave, city=Burnaby, postalCode=V5C3V9, phone=6042931022, emailAddress=mchan@hcenter.com, joinedDate=2010-04-01]
+2020-03-15 23:39:13.437 [main] INFO  a00587586.CustomerDaoTester - 5
+2020-03-15 23:39:13.437 [main] INFO  a00587586.Lab7 - End: 2020-03-16T06:39:13.437883600Z
+2020-03-15 23:39:13.437 [main] INFO  a00587586.Lab7 - Duration: 1866 ms
+2020-03-15 23:40:07.596 [main] INFO  a00587586.Lab7 - Start: 2020-03-16T06:40:07.230847800Z
+2020-03-15 23:40:07.596 [main] DEBUG a00587586.db.Database - Loading database properties from db.properties
+2020-03-15 23:40:07.596 [main] DEBUG a00587586.db.Database - com.microsoft.sqlserver.jdbc.SQLServerDriver
+2020-03-15 23:40:07.673 [main] DEBUG a00587586.db.Database - Driver loaded
+2020-03-15 23:40:07.673 [main] DEBUG a00587586.db.Database - DB URL=jdbc:sqlserver://Beangrinder.bcit.ca
+2020-03-15 23:40:07.673 [main] DEBUG a00587586.db.Database - DB USER=javastudent
+2020-03-15 23:40:07.673 [main] DEBUG a00587586.db.Database - DB URL=compjava
+2020-03-15 23:40:08.238 [main] DEBUG a00587586.db.Database - Database connected
+2020-03-15 23:40:08.384 [main] DEBUG a00587586.db.Database - Found the target table named: A00123456_Customers
+2020-03-15 23:40:08.446 [main] DEBUG a00587586.data.customer.CustomerDao - SELECT * FROM A00123456_Customers WHERE id = 0
+2020-03-15 23:40:08.478 [main] DEBUG a00587586.data.customer.CustomerDao - SELECT * FROM A00123456_Customers WHERE id = 1
+2020-03-15 23:40:08.524 [main] DEBUG a00587586.data.customer.CustomerDao - SELECT * FROM A00123456_Customers WHERE id = 2
+2020-03-15 23:40:08.571 [main] DEBUG a00587586.data.customer.CustomerDao - SELECT * FROM A00123456_Customers WHERE id = 3
+2020-03-15 23:40:08.618 [main] DEBUG a00587586.data.customer.CustomerDao - SELECT * FROM A00123456_Customers WHERE id = 4
+2020-03-15 23:40:08.649 [main] DEBUG a00587586.data.customer.CustomerDao - SELECT * FROM A00123456_Customers WHERE id = 5
+2020-03-15 23:40:08.802 [main] INFO  a00587586.CustomerDaoTester - Getting the customer IDs
+2020-03-15 23:40:08.802 [main] DEBUG a00587586.data.customer.CustomerDao - SELECT id FROM A00123456_Customers
+2020-03-15 23:40:08.833 [main] DEBUG a00587586.data.customer.CustomerDao - Loaded 5 customer IDs from the database
+2020-03-15 23:40:08.833 [main] INFO  a00587586.CustomerDaoTester - Customer IDs: [1, 2, 3, 4, 5]
+2020-03-15 23:40:08.833 [main] INFO  a00587586.CustomerDaoTester - 1
+2020-03-15 23:40:08.833 [main] DEBUG a00587586.data.customer.CustomerDao - SELECT * FROM A00123456_Customers WHERE id = 1
+2020-03-15 23:40:08.880 [main] INFO  a00587586.CustomerDaoTester - Customer [id=1, firstName=Fred, lastName=Fish, street=5707 Sidley St, city=Burnaby, postalCode=V5J5E6, phone=6044335004, emailAddress=fredfish@imperial.net, joinedDate=2008-03-22]
+2020-03-15 23:40:08.880 [main] INFO  a00587586.CustomerDaoTester - 2
+2020-03-15 23:40:08.880 [main] DEBUG a00587586.data.customer.CustomerDao - SELECT * FROM A00123456_Customers WHERE id = 2
+2020-03-15 23:40:08.911 [main] INFO  a00587586.CustomerDaoTester - Customer [id=2, firstName=Laurie, lastName=Nash, street=2816 Commercial Dr, city=Vancouver, postalCode=V5N4C6, phone=6048760182, emailAddress=laurieeenash@modern.com, joinedDate=2014-08-28]
+2020-03-15 23:40:08.911 [main] INFO  a00587586.CustomerDaoTester - 3
+2020-03-15 23:40:08.911 [main] DEBUG a00587586.data.customer.CustomerDao - SELECT * FROM A00123456_Customers WHERE id = 3
+2020-03-15 23:40:08.964 [main] INFO  a00587586.CustomerDaoTester - Customer [id=3, firstName=Conrad, lastName=Washington, street=13479 King George Blvd, city=Surrey, postalCode=V3T2T8, phone=6045884988, emailAddress=cwash@daytona.net, joinedDate=2011-07-12]
+2020-03-15 23:40:08.965 [main] INFO  a00587586.CustomerDaoTester - 4
+2020-03-15 23:40:08.965 [main] DEBUG a00587586.data.customer.CustomerDao - SELECT * FROM A00123456_Customers WHERE id = 4
+2020-03-15 23:40:09.001 [main] INFO  a00587586.CustomerDaoTester - Customer [id=4, firstName=Jeanette, lastName=Price, street=21000 Westminster Hwy, city=Richmond, postalCode=V6V2S9, phone=6042762552, emailAddress=priceizrite@pacific.com, joinedDate=2015-10-03]
+2020-03-15 23:40:09.001 [main] INFO  a00587586.CustomerDaoTester - 5
+2020-03-15 23:40:09.001 [main] DEBUG a00587586.data.customer.CustomerDao - SELECT * FROM A00123456_Customers WHERE id = 5
+2020-03-15 23:40:09.032 [main] INFO  a00587586.CustomerDaoTester - Customer [id=5, firstName=Mark, lastName=Chan, street=3766 E 1st Ave, city=Burnaby, postalCode=V5C3V9, phone=6042931022, emailAddress=mchan@hcenter.com, joinedDate=2010-04-01]
+2020-03-15 23:40:09.079 [main] INFO  a00587586.CustomerDaoTester - 5
+2020-03-15 23:40:09.079 [main] INFO  a00587586.Lab7 - End: 2020-03-16T06:40:09.079757300Z
+2020-03-15 23:40:09.079 [main] INFO  a00587586.Lab7 - Duration: 1848 ms
+2020-03-15 23:43:01.547 [main] INFO  a00587586.Lab7 - Start: 2020-03-16T06:43:01.181058400Z
+2020-03-15 23:43:01.547 [main] DEBUG a00587586.db.Database - Loading database properties from db.properties
+2020-03-15 23:43:01.563 [main] DEBUG a00587586.db.Database - com.microsoft.sqlserver.jdbc.SQLServerDriver
+2020-03-15 23:43:01.625 [main] DEBUG a00587586.db.Database - Driver loaded
+2020-03-15 23:43:01.625 [main] DEBUG a00587586.db.Database - DB URL=jdbc:sqlserver://Beangrinder.bcit.ca
+2020-03-15 23:43:01.625 [main] DEBUG a00587586.db.Database - DB USER=javastudent
+2020-03-15 23:43:01.625 [main] DEBUG a00587586.db.Database - DB URL=compjava
+2020-03-15 23:43:02.190 [main] DEBUG a00587586.db.Database - Database connected
+2020-03-15 23:43:02.369 [main] DEBUG a00587586.db.Database - Found the target table named: A00123456_Customers
+2020-03-15 23:43:02.432 [main] DEBUG a00587586.data.customer.CustomerDao - SELECT * FROM A00123456_Customers WHERE id = 0
+2020-03-15 23:43:02.479 [main] DEBUG a00587586.data.customer.CustomerDao - SELECT * FROM A00123456_Customers WHERE id = 1
+2020-03-15 23:43:02.519 [main] DEBUG a00587586.data.customer.CustomerDao - SELECT * FROM A00123456_Customers WHERE id = 2
+2020-03-15 23:43:02.552 [main] DEBUG a00587586.data.customer.CustomerDao - SELECT * FROM A00123456_Customers WHERE id = 3
+2020-03-15 23:43:02.583 [main] DEBUG a00587586.data.customer.CustomerDao - SELECT * FROM A00123456_Customers WHERE id = 4
+2020-03-15 23:43:02.630 [main] DEBUG a00587586.data.customer.CustomerDao - SELECT * FROM A00123456_Customers WHERE id = 5
+2020-03-15 23:43:02.786 [main] INFO  a00587586.CustomerDaoTester - Getting the customer IDs
+2020-03-15 23:43:02.786 [main] DEBUG a00587586.data.customer.CustomerDao - SELECT id FROM A00123456_Customers
+2020-03-15 23:43:02.833 [main] DEBUG a00587586.data.customer.CustomerDao - Loaded 5 customer IDs from the database
+2020-03-15 23:43:02.833 [main] INFO  a00587586.CustomerDaoTester - Customer IDs: [1, 2, 3, 4, 5]
+2020-03-15 23:43:02.833 [main] INFO  a00587586.CustomerDaoTester - 1
+2020-03-15 23:43:02.833 [main] DEBUG a00587586.data.customer.CustomerDao - SELECT * FROM A00123456_Customers WHERE id = 1
+2020-03-15 23:43:02.864 [main] INFO  a00587586.CustomerDaoTester - Customer [id=1, firstName=Fred, lastName=Fish, street=5707 Sidley St, city=Burnaby, postalCode=V5J5E6, phone=6044335004, emailAddress=fredfish@imperial.net, joinedDate=2008-03-22]
+2020-03-15 23:43:02.864 [main] INFO  a00587586.CustomerDaoTester - 2
+2020-03-15 23:43:02.864 [main] DEBUG a00587586.data.customer.CustomerDao - SELECT * FROM A00123456_Customers WHERE id = 2
+2020-03-15 23:43:02.911 [main] INFO  a00587586.CustomerDaoTester - Customer [id=2, firstName=Laurie, lastName=Nash, street=2816 Commercial Dr, city=Vancouver, postalCode=V5N4C6, phone=6048760182, emailAddress=laurieeenash@modern.com, joinedDate=2014-08-28]
+2020-03-15 23:43:02.911 [main] INFO  a00587586.CustomerDaoTester - 3
+2020-03-15 23:43:02.911 [main] DEBUG a00587586.data.customer.CustomerDao - SELECT * FROM A00123456_Customers WHERE id = 3
+2020-03-15 23:43:02.955 [main] INFO  a00587586.CustomerDaoTester - Customer [id=3, firstName=Conrad, lastName=Washington, street=13479 King George Blvd, city=Surrey, postalCode=V3T2T8, phone=6045884988, emailAddress=cwash@daytona.net, joinedDate=2011-07-12]
+2020-03-15 23:43:02.955 [main] INFO  a00587586.CustomerDaoTester - 4
+2020-03-15 23:43:02.955 [main] DEBUG a00587586.data.customer.CustomerDao - SELECT * FROM A00123456_Customers WHERE id = 4
+2020-03-15 23:43:02.984 [main] INFO  a00587586.CustomerDaoTester - Customer [id=4, firstName=Jeanette, lastName=Price, street=21000 Westminster Hwy, city=Richmond, postalCode=V6V2S9, phone=6042762552, emailAddress=priceizrite@pacific.com, joinedDate=2015-10-03]
+2020-03-15 23:43:02.984 [main] INFO  a00587586.CustomerDaoTester - 5
+2020-03-15 23:43:02.984 [main] DEBUG a00587586.data.customer.CustomerDao - SELECT * FROM A00123456_Customers WHERE id = 5
+2020-03-15 23:43:03.031 [main] INFO  a00587586.CustomerDaoTester - Customer [id=5, firstName=Mark, lastName=Chan, street=3766 E 1st Ave, city=Burnaby, postalCode=V5C3V9, phone=6042931022, emailAddress=mchan@hcenter.com, joinedDate=2010-04-01]
+2020-03-15 23:43:03.071 [main] INFO  a00587586.CustomerDaoTester - 5
+2020-03-15 23:43:03.072 [main] INFO  a00587586.Lab7 - End: 2020-03-16T06:43:03.072719400Z
+2020-03-15 23:43:03.072 [main] INFO  a00587586.Lab7 - Duration: 1891 ms
+2020-03-15 23:46:39.500 [main] INFO  a00587586.Lab7 - Start: 2020-03-16T06:46:39.135686900Z
+2020-03-15 23:46:39.515 [main] DEBUG a00587586.db.Database - Loading database properties from db.properties
+2020-03-15 23:46:39.515 [main] DEBUG a00587586.db.Database - com.microsoft.sqlserver.jdbc.SQLServerDriver
+2020-03-15 23:46:39.578 [main] DEBUG a00587586.db.Database - Driver loaded
+2020-03-15 23:46:39.578 [main] DEBUG a00587586.db.Database - DB URL=jdbc:sqlserver://Beangrinder.bcit.ca
+2020-03-15 23:46:39.578 [main] DEBUG a00587586.db.Database - DB USER=javastudent
+2020-03-15 23:46:39.578 [main] DEBUG a00587586.db.Database - DB URL=compjava
+2020-03-15 23:46:40.164 [main] DEBUG a00587586.db.Database - Database connected
+2020-03-15 23:46:40.309 [main] DEBUG a00587586.db.Database - Found the target table named: A00123456_Customers
+2020-03-15 23:46:40.423 [main] DEBUG a00587586.data.customer.CustomerDao - SELECT * FROM A00123456_Customers WHERE id = 0
+2020-03-15 23:46:40.455 [main] DEBUG a00587586.data.customer.CustomerDao - SELECT * FROM A00123456_Customers WHERE id = 1
+2020-03-15 23:46:40.501 [main] DEBUG a00587586.data.customer.CustomerDao - SELECT * FROM A00123456_Customers WHERE id = 2
+2020-03-15 23:46:40.533 [main] DEBUG a00587586.data.customer.CustomerDao - SELECT * FROM A00123456_Customers WHERE id = 3
+2020-03-15 23:46:40.583 [main] DEBUG a00587586.data.customer.CustomerDao - SELECT * FROM A00123456_Customers WHERE id = 4
+2020-03-15 23:46:40.624 [main] DEBUG a00587586.data.customer.CustomerDao - SELECT * FROM A00123456_Customers WHERE id = 5
+2020-03-15 23:46:40.777 [main] INFO  a00587586.CustomerDaoTester - Getting the customer IDs
+2020-03-15 23:46:40.777 [main] DEBUG a00587586.data.customer.CustomerDao - SELECT id FROM A00123456_Customers
+2020-03-15 23:46:40.816 [main] DEBUG a00587586.data.customer.CustomerDao - Loaded 5 customer IDs from the database
+2020-03-15 23:46:40.816 [main] INFO  a00587586.CustomerDaoTester - Customer IDs: [1, 2, 3, 4, 5]
+2020-03-15 23:46:40.817 [main] INFO  a00587586.CustomerDaoTester - 1
+2020-03-15 23:46:40.817 [main] DEBUG a00587586.data.customer.CustomerDao - SELECT * FROM A00123456_Customers WHERE id = 1
+2020-03-15 23:46:40.856 [main] INFO  a00587586.CustomerDaoTester - Customer [id=1, firstName=Fred, lastName=Fish, street=5707 Sidley St, city=Burnaby, postalCode=V5J5E6, phone=6044335004, emailAddress=fredfish@imperial.net, joinedDate=2008-03-22]
+2020-03-15 23:46:40.856 [main] INFO  a00587586.CustomerDaoTester - 2
+2020-03-15 23:46:40.857 [main] DEBUG a00587586.data.customer.CustomerDao - SELECT * FROM A00123456_Customers WHERE id = 2
+2020-03-15 23:46:40.895 [main] INFO  a00587586.CustomerDaoTester - Customer [id=2, firstName=Laurie, lastName=Nash, street=2816 Commercial Dr, city=Vancouver, postalCode=V5N4C6, phone=6048760182, emailAddress=laurieeenash@modern.com, joinedDate=2014-08-28]
+2020-03-15 23:46:40.895 [main] INFO  a00587586.CustomerDaoTester - 3
+2020-03-15 23:46:40.895 [main] DEBUG a00587586.data.customer.CustomerDao - SELECT * FROM A00123456_Customers WHERE id = 3
+2020-03-15 23:46:40.935 [main] INFO  a00587586.CustomerDaoTester - Customer [id=3, firstName=Conrad, lastName=Washington, street=13479 King George Blvd, city=Surrey, postalCode=V3T2T8, phone=6045884988, emailAddress=cwash@daytona.net, joinedDate=2011-07-12]
+2020-03-15 23:46:40.935 [main] INFO  a00587586.CustomerDaoTester - 4
+2020-03-15 23:46:40.936 [main] DEBUG a00587586.data.customer.CustomerDao - SELECT * FROM A00123456_Customers WHERE id = 4
+2020-03-15 23:46:40.977 [main] INFO  a00587586.CustomerDaoTester - Customer [id=4, firstName=Jeanette, lastName=Price, street=21000 Westminster Hwy, city=Richmond, postalCode=V6V2S9, phone=6042762552, emailAddress=priceizrite@pacific.com, joinedDate=2015-10-03]
+2020-03-15 23:46:40.977 [main] INFO  a00587586.CustomerDaoTester - 5
+2020-03-15 23:46:40.977 [main] DEBUG a00587586.data.customer.CustomerDao - SELECT * FROM A00123456_Customers WHERE id = 5
+2020-03-15 23:46:41.016 [main] INFO  a00587586.CustomerDaoTester - Customer [id=5, firstName=Mark, lastName=Chan, street=3766 E 1st Ave, city=Burnaby, postalCode=V5C3V9, phone=6042931022, emailAddress=mchan@hcenter.com, joinedDate=2010-04-01]
+2020-03-15 23:46:41.055 [main] INFO  a00587586.CustomerDaoTester - 5
+2020-03-15 23:46:41.055 [main] INFO  a00587586.Lab7 - End: 2020-03-16T06:46:41.055628100Z
+2020-03-15 23:46:41.055 [main] INFO  a00587586.Lab7 - Duration: 1919 ms
+2020-03-15 23:48:59.361 [main] INFO  a00587586.Lab7 - Start: 2020-03-16T06:48:59.000683800Z
+2020-03-15 23:48:59.377 [main] DEBUG a00587586.db.Database - Loading database properties from db.properties
+2020-03-15 23:48:59.377 [main] DEBUG a00587586.db.Database - com.microsoft.sqlserver.jdbc.SQLServerDriver
+2020-03-15 23:48:59.439 [main] DEBUG a00587586.db.Database - Driver loaded
+2020-03-15 23:48:59.439 [main] DEBUG a00587586.db.Database - DB URL=jdbc:sqlserver://Beangrinder.bcit.ca
+2020-03-15 23:48:59.439 [main] DEBUG a00587586.db.Database - DB USER=javastudent
+2020-03-15 23:48:59.439 [main] DEBUG a00587586.db.Database - DB URL=compjava
+2020-03-15 23:48:59.989 [main] DEBUG a00587586.db.Database - Database connected
+2020-03-15 23:49:00.149 [main] DEBUG a00587586.db.Database - Found the target table named: A00123456_Customers
+2020-03-15 23:49:00.243 [main] DEBUG a00587586.data.customer.CustomerDao - SELECT * FROM A00123456_Customers WHERE id = 0
+2020-03-15 23:49:00.287 [main] DEBUG a00587586.data.customer.CustomerDao - SELECT * FROM A00123456_Customers WHERE id = 1
+2020-03-15 23:49:00.334 [main] DEBUG a00587586.data.customer.CustomerDao - SELECT * FROM A00123456_Customers WHERE id = 2
+2020-03-15 23:49:00.366 [main] DEBUG a00587586.data.customer.CustomerDao - SELECT * FROM A00123456_Customers WHERE id = 3
+2020-03-15 23:49:00.412 [main] DEBUG a00587586.data.customer.CustomerDao - SELECT * FROM A00123456_Customers WHERE id = 4
+2020-03-15 23:49:00.444 [main] DEBUG a00587586.data.customer.CustomerDao - SELECT * FROM A00123456_Customers WHERE id = 5
+2020-03-15 23:49:00.600 [main] INFO  a00587586.CustomerDaoTester - Getting the customer IDs
+2020-03-15 23:49:00.600 [main] DEBUG a00587586.data.customer.CustomerDao - SELECT id FROM A00123456_Customers
+2020-03-15 23:49:00.631 [main] DEBUG a00587586.data.customer.CustomerDao - Loaded 5 customer IDs from the database
+2020-03-15 23:49:00.631 [main] INFO  a00587586.CustomerDaoTester - Customer IDs: [1, 2, 3, 4, 5]
+2020-03-15 23:49:00.631 [main] INFO  a00587586.CustomerDaoTester - 1
+2020-03-15 23:49:00.631 [main] DEBUG a00587586.data.customer.CustomerDao - SELECT * FROM A00123456_Customers WHERE id = 1
+2020-03-15 23:49:00.678 [main] INFO  a00587586.CustomerDaoTester - Customer [id=1, firstName=Fred, lastName=Fish, street=5707 Sidley St, city=Burnaby, postalCode=V5J5E6, phone=6044335004, emailAddress=fredfish@imperial.net, joinedDate=2008-03-22]
+2020-03-15 23:49:00.678 [main] INFO  a00587586.CustomerDaoTester - 2
+2020-03-15 23:49:00.678 [main] DEBUG a00587586.data.customer.CustomerDao - SELECT * FROM A00123456_Customers WHERE id = 2
+2020-03-15 23:49:00.709 [main] INFO  a00587586.CustomerDaoTester - Customer [id=2, firstName=Laurie, lastName=Nash, street=2816 Commercial Dr, city=Vancouver, postalCode=V5N4C6, phone=6048760182, emailAddress=laurieeenash@modern.com, joinedDate=2014-08-28]
+2020-03-15 23:49:00.709 [main] INFO  a00587586.CustomerDaoTester - 3
+2020-03-15 23:49:00.709 [main] DEBUG a00587586.data.customer.CustomerDao - SELECT * FROM A00123456_Customers WHERE id = 3
+2020-03-15 23:49:00.764 [main] INFO  a00587586.CustomerDaoTester - Customer [id=3, firstName=Conrad, lastName=Washington, street=13479 King George Blvd, city=Surrey, postalCode=V3T2T8, phone=6045884988, emailAddress=cwash@daytona.net, joinedDate=2011-07-12]
+2020-03-15 23:49:00.764 [main] INFO  a00587586.CustomerDaoTester - 4
+2020-03-15 23:49:00.765 [main] DEBUG a00587586.data.customer.CustomerDao - SELECT * FROM A00123456_Customers WHERE id = 4
+2020-03-15 23:49:00.804 [main] INFO  a00587586.CustomerDaoTester - Customer [id=4, firstName=Jeanette, lastName=Price, street=21000 Westminster Hwy, city=Richmond, postalCode=V6V2S9, phone=6042762552, emailAddress=priceizrite@pacific.com, joinedDate=2015-10-03]
+2020-03-15 23:49:00.804 [main] INFO  a00587586.CustomerDaoTester - 5
+2020-03-15 23:49:00.804 [main] DEBUG a00587586.data.customer.CustomerDao - SELECT * FROM A00123456_Customers WHERE id = 5
+2020-03-15 23:49:00.837 [main] INFO  a00587586.CustomerDaoTester - Customer [id=5, firstName=Mark, lastName=Chan, street=3766 E 1st Ave, city=Burnaby, postalCode=V5C3V9, phone=6042931022, emailAddress=mchan@hcenter.com, joinedDate=2010-04-01]
+2020-03-15 23:49:00.868 [main] INFO  a00587586.CustomerDaoTester - 5
+2020-03-15 23:49:00.884 [main] INFO  a00587586.Lab7 - End: 2020-03-16T06:49:00.884126500Z
+2020-03-15 23:49:00.884 [main] INFO  a00587586.Lab7 - Duration: 1883 ms
