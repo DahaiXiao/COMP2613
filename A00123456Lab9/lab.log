@@ -1,0 +1,31 @@
+2018-03-12 21:06:47.375 [main] INFO  a00123456.Lab9 - Start: 2018-03-13T04:06:45.530765Z
+2018-03-12 21:06:47.379 [main] DEBUG a00123456.db.Database - Loading database properties from db.properties
+2018-03-12 21:06:47.410 [main] DEBUG a00123456.db.Database - com.microsoft.sqlserver.jdbc.SQLServerDriver
+2018-03-12 21:09:02.712 [main] INFO  a00123456.Lab9 - Start: 2018-03-13T04:09:01.325718Z
+2018-03-12 21:09:02.717 [main] DEBUG a00123456.db.Database - Loading database properties from db.properties
+2018-03-12 21:09:02.720 [main] DEBUG a00123456.db.Database - com.microsoft.sqlserver.jdbc.SQLServerDriver
+2018-03-12 21:09:03.393 [main] DEBUG a00123456.db.Database - Database connected
+2018-03-12 21:09:03.579 [main] DEBUG a00123456.db.Database - Found the target table named: A00123456_Customers
+2018-03-12 21:09:03.590 [main] DEBUG a00123456.Lab9 - Creating the UI
+2018-03-12 21:09:05.033 [main] DEBUG a00123456.Lab9 - main thread exiting
+2018-03-12 21:09:05.034 [AWT-EventQueue-0] DEBUG a00123456.Lab9 - Setting the Look & Feel
+2018-03-12 21:09:05.935 [AWT-EventQueue-0] DEBUG a00123456.ui.MainFrame - Creating the MainFrame
+2018-03-12 21:09:17.870 [AWT-EventQueue-0] DEBUG a00123456.data.customer.CustomerDao - SELECT id FROM A00123456_Customers
+2018-03-12 21:09:17.899 [AWT-EventQueue-0] DEBUG a00123456.data.customer.CustomerDao - Loaded 5 customer IDs from the database
+2018-03-12 21:09:17.899 [AWT-EventQueue-0] DEBUG a00123456.data.customer.CustomerDao - SELECT * FROM A00123456_Customers WHERE id = 3
+2018-03-12 21:09:20.991 [AWT-EventQueue-0] INFO  a00123456.ui.MainFrame - End: 2018-03-13T04:09:20.990779Z
+2018-03-12 21:09:20.991 [AWT-EventQueue-0] INFO  a00123456.ui.MainFrame - Duration: 19665 ms
+2018-06-04 22:00:10.375 [main] INFO  a00123456.Lab9 - Start: 2018-06-05T05:00:09.681623Z
+2018-06-04 22:00:10.378 [main] DEBUG a00123456.db.Database - Loading database properties from db.properties
+2018-06-04 22:00:10.379 [main] DEBUG a00123456.db.Database - com.microsoft.sqlserver.jdbc.SQLServerDriver
+2018-06-04 22:00:10.871 [main] DEBUG a00123456.db.Database - Database connected
+2018-06-04 22:00:11.038 [main] DEBUG a00123456.db.Database - Found the target table named: A00123456_Customers
+2018-06-04 22:00:11.047 [main] DEBUG a00123456.Lab9 - Creating the UI
+2018-06-04 22:00:11.233 [main] DEBUG a00123456.Lab9 - main thread exiting
+2018-06-04 22:00:11.234 [AWT-EventQueue-0] DEBUG a00123456.Lab9 - Setting the Look & Feel
+2018-06-04 22:00:11.458 [AWT-EventQueue-0] DEBUG a00123456.ui.MainFrame - Creating the MainFrame
+2018-06-04 22:00:17.384 [AWT-EventQueue-0] DEBUG a00123456.data.customer.CustomerDao - SELECT id FROM A00123456_Customers
+2018-06-04 22:00:17.407 [AWT-EventQueue-0] DEBUG a00123456.data.customer.CustomerDao - Loaded 5 customer IDs from the database
+2018-06-04 22:00:17.407 [AWT-EventQueue-0] DEBUG a00123456.data.customer.CustomerDao - SELECT * FROM A00123456_Customers WHERE id = 2
+2018-06-04 22:00:19.706 [AWT-EventQueue-0] INFO  a00123456.ui.MainFrame - End: 2018-06-05T05:00:19.706798Z
+2018-06-04 22:00:19.707 [AWT-EventQueue-0] INFO  a00123456.ui.MainFrame - Duration: 10025 ms
